@@ -62,35 +62,18 @@ class ValueIterationAgent(ValueEstimationAgent):
     def runValueIteration(self):
         # Write value iteration code here
         "*** YOUR CODE HERE ***"
-        states = self.mdp.getStates()
-        prevIterValues = {}
-        for state in states:
-            if state not in self.values:
-                prevIterValues[state] = 0
-        for iter in range(1,self.iterations+1):
+        for i in range(self.iterations):
+            temp_values = {}
+            states = self.mdp.getStates()
             for state in states:
+                # update values
                 if self.mdp.isTerminal(state):
-                    continue
-                actions = self.mdp.getPossibleActions(state)
-                maxValue = float('-inf')
-                if not (actions is None or len(actions) == 0):
-                    for action in actions:
-                        actionValue = 0
-                        transitions = self.mdp.getTransitionStatesAndProbs(state, action)
-                        for transition in transitions:
-                            nextState = transition[0]
-                            prob = transition[1]
-                            reward = self.mdp.getReward(state, action, nextState)
-                            actionValue = actionValue + prob*(reward + self.discount * prevIterValues[nextState])
-                        if maxValue < actionValue:
-                            maxValue = actionValue
-                if maxValue == float('-inf'):
-                    maxValue = 0
-                self.values[state] = maxValue
-            for state in states:
-                prevIterValues[state] = self.values[state]
-        #value iteration
-
+                    temp_values[state] = self.getValue(state)
+                else:
+                    action = self.computeActionFromValues(state)
+                    temp_values[state] = self.computeQValueFromValues(state, action)
+            self.values = temp_values
+        return
 
     def getValue(self, state):
         """
@@ -105,16 +88,11 @@ class ValueIterationAgent(ValueEstimationAgent):
           value function stored in self.values.
         """
         "*** YOUR CODE HERE ***"
-        actionValue = 0
-        transitions = self.mdp.getTransitionStatesAndProbs(state, action)
-        for transition in transitions:
-            nextState = transition[0]
-            prob = transition[1]
-            reward = self.mdp.getReward(state, action, nextState)
-            actionValue = actionValue + prob*(reward + self.discount * self.getValue(nextState))
-        return actionValue
-        # util.raiseNotDefined()
-
+        value = 0
+        sas = self.mdp.getTransitionStatesAndProbs(state, action)
+        for sa in sas:
+            value += sa[1] * (self.mdp.getReward(state, action, sa[0]) + (self.discount * self.getValue(sa[0])))
+        return value
 
     def computeActionFromValues(self, state):
         """
@@ -126,23 +104,17 @@ class ValueIterationAgent(ValueEstimationAgent):
           terminal state, you should return None.
         """
         "*** YOUR CODE HERE ***"
+        best_action = 'None'
+        value = -10000
+        if self.mdp.isTerminal(state):
+            return best_action
         actions = self.mdp.getPossibleActions(state)
-        maxValue = float('-inf')
-        maxAction = None
-        if not (actions is None or len(actions) == 0):
-            for action in actions:
-                actionValue = 0
-                transitions = self.mdp.getTransitionStatesAndProbs(state, action)
-                for transition in transitions:
-                    nextState = transition[0]
-                    prob = transition[1]
-                    reward = self.mdp.getReward(state, action, nextState)
-                    actionValue = actionValue + prob*(reward + self.discount * self.getValue(nextState))
-                if maxValue < actionValue:
-                    maxAction = action
-                    maxValue = actionValue
-        return maxAction
-        # util.raiseNotDefined()
+        for action in actions:
+            temp_value = self.computeQValueFromValues(state, action)
+            if temp_value > value:
+                value = temp_value
+                best_action = action
+        return best_action
 
     def getPolicy(self, state):
         return self.computeActionFromValues(state)
@@ -184,29 +156,16 @@ class AsynchronousValueIterationAgent(ValueIterationAgent):
     def runValueIteration(self):
         "*** YOUR CODE HERE ***"
         states = self.mdp.getStates()
-        numStates = len(states)
-        for iter in range(0,self.iterations):
-            state = states[iter%numStates]
-            if self.mdp.isTerminal(state):
-                continue
-            actions = self.mdp.getPossibleActions(state)
-            maxValue = float('-inf')
-            if not (actions is None or len(actions) == 0):
-                for action in actions:
-                    actionValue = 0
-                    transitions = self.mdp.getTransitionStatesAndProbs(state, action)
-                    for transition in transitions:
-                        nextState = transition[0]
-                        prob = transition[1]
-                        reward = self.mdp.getReward(state, action, nextState)
-                        nextStateValue = self.getValue(nextState) if nextState in self.values else 0
-                        actionValue = actionValue + prob*(reward + self.discount * nextStateValue)
-                    if maxValue < actionValue:
-                        maxValue = actionValue
-            if maxValue == float('-inf'):
-                maxValue = 0
-            self.values[state] = maxValue
-        #async value iteration
+        j = 0
+        for i in range(self.iterations):
+            if j == len(states):
+                j = 0
+            if self.mdp.isTerminal(states[j]):
+                self.values[states[j]] = self.getValue(states[j])
+            else:
+                action = self.computeActionFromValues(states[j])
+                self.values[states[j]] = self.computeQValueFromValues(states[j], action)
+            j += 1
 
 class PrioritizedSweepingValueIterationAgent(AsynchronousValueIterationAgent):
     """

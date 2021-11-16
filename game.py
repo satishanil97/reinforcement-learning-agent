@@ -655,30 +655,7 @@ class Game:
             agent = self.agents[agentIndex]
             move_time = 0
             skip_action = False
-            # Generate an observation of the state
-            if 'observationFunction' in dir(agent):
-                self.mute(agentIndex)
-                if self.catchExceptions:
-                    try:
-                        timed_func = TimeoutFunction(agent.observationFunction, int(
-                            self.rules.getMoveTimeout(agentIndex)))
-                        try:
-                            start_time = time.time()
-                            observation = timed_func(self.state.deepCopy())
-                        except TimeoutFunctionException:
-                            skip_action = True
-                        move_time += time.time() - start_time
-                        self.unmute()
-                    except Exception as data:
-                        self._agentCrash(agentIndex, quiet=False)
-                        self.unmute()
-                        return
-                else:
-                    observation = agent.observationFunction(
-                        self.state.deepCopy())
-                self.unmute()
-            else:
-                observation = self.state.deepCopy()
+
 
             # Solicit an action
             action = None
@@ -691,7 +668,8 @@ class Game:
                         start_time = time.time()
                         if skip_action:
                             raise TimeoutFunctionException()
-                        action = timed_func(observation)
+                        #action = timed_func(observation)
+                        action = timed_func(self.state.deepCopy())
                     except TimeoutFunctionException:
                         print("Agent %d timed out on a single move!" %
                               agentIndex, file=sys.stderr)
@@ -729,8 +707,42 @@ class Game:
                     self.unmute()
                     return
             else:
-                action = agent.getAction(observation)
+                #action = agent.getAction(observation)
+                action = agent.getAction(self.state.deepCopy())
             self.unmute()
+
+            # Generate an observation of the state
+            if 'observationFunction' in dir(agent):
+                self.mute(agentIndex)
+                if self.catchExceptions:
+                    try:
+                        timed_func = TimeoutFunction(agent.observationFunction, int(
+                            self.rules.getMoveTimeout(agentIndex)))
+                        try:
+                            start_time = time.time()
+                            observation = timed_func(self.state.deepCopy())
+                        except TimeoutFunctionException:
+                            skip_action = True
+                        move_time += time.time() - start_time
+                        self.unmute()
+                    except Exception as data:
+                        self._agentCrash(agentIndex, quiet=False)
+                        self.unmute()
+                        return
+                else:
+                    #observation = agent.observationFunction(self.state.deepCopy())
+                    observation = self.state.deepCopy()
+                    reward = observation.getScore() - agent.lastState.getScore()
+                    agent.episodeRewards += reward
+                    agent.sarsa_update(agent.lastState, agent.lastAction, observation, action, reward)
+                self.unmute()
+            else:
+                observation = self.state.deepCopy()
+
+
+
+
+
 
             # Execute the action
             self.moveHistory.append((agentIndex, action))
