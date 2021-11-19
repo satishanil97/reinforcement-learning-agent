@@ -43,7 +43,7 @@ class QLearningAgent(ReinforcementAgent):
         ReinforcementAgent.__init__(self, **args)
 
         "*** YOUR CODE HERE ***"
-        self.qValues = {}
+        self.qValues = util.Counter()
 
     def getQValue(self, state, action):
         """
@@ -154,6 +154,7 @@ class PacmanQAgent(QLearningAgent):
         args['alpha'] = alpha
         args['numTraining'] = numTraining
         self.index = 0  # This is always Pacman
+        self.isSarsaAgent = False
         QLearningAgent.__init__(self, **args)
 
     def getAction(self, state):
@@ -215,3 +216,160 @@ class ApproximateQAgent(PacmanQAgent):
             # you might want to print your weights here for debugging
             "*** YOUR CODE HERE ***"
             pass
+
+# SARSA Logic
+class ApproximateQAgentSarsa(ApproximateQAgent):
+    """
+       ApproximateQAgentSarsa
+    """
+    def __init__(self, extractor='IdentityExtractor', **args):
+        ApproximateQAgent.__init__(self, extractor, **args)
+        # SARSA Logic
+        self.isSarsaAgent = True
+
+    def getQValue(self, state, action):
+        """
+          Should return Q(state,action) = w * featureVector
+          where * is the dotProduct operator
+        """
+        "*** YOUR CODE HERE ***"
+        # Handling Q(terminalState, Action) = 0.0 for Sarsa
+        if state.isWin() or state.isLose():
+          return 0.0
+        return ApproximateQAgent.getQValue(self, state, action)
+
+    def observationFunction(self, state, action):
+        """
+            This is where we ended up after our last action.
+            The simulation should somehow ensure this is called
+        """
+        if not self.lastState is None:
+            reward = state.getScore() - self.lastState.getScore()
+            self.observeTransition(self.lastState, self.lastAction, state, action, reward)
+        return state
+
+    def observeTransition(self, state,action,nextState,nextAction,deltaReward):
+        """
+            Called by environment to inform agent that a transition has
+            been observed. This will result in a call to self.update
+            on the same arguments
+        """
+        self.episodeRewards += deltaReward
+        # SARSA Logic
+        self.update(state,action,nextState,nextAction,deltaReward)
+
+    def update(self, state, action, nextState, nextAction, reward):
+        """
+           Should update your weights based on transition
+        """
+        "*** YOUR CODE HERE ***"
+        difference = (reward + self.discount*self.getQValue(nextState, nextAction)) - self.getQValue(state, action)
+        featureVector = self.featExtractor.getFeatures(state, action)
+        for feature in featureVector:
+          self.weights[feature] = self.weights[feature] + self.alpha*difference*featureVector[feature]
+        # util.raiseNotDefined()
+
+    def getAction(self, state):
+        """
+        Simply calls the getAction method of QLearningAgent
+        """
+        action = QLearningAgent.getAction(self,state)
+        return action
+    
+    def final(self, state):
+        "Called at the end of each game."
+        # call the super-class final method
+        # PacmanQAgent.final(self, state)
+        deltaReward = state.getScore() - self.lastState.getScore()
+        self.observeTransition(self.lastState, self.lastAction, state, None, deltaReward)
+        self.stopEpisode()
+
+        # Make sure we have this var
+        if not 'episodeStartTime' in self.__dict__:
+            self.episodeStartTime = time.time()
+        if not 'lastWindowAccumRewards' in self.__dict__:
+            self.lastWindowAccumRewards = 0.0
+        self.lastWindowAccumRewards += state.getScore()
+
+        # SARSA Logic, Setting reward update frequency
+        NUM_EPS_UPDATE = 10
+        if self.episodesSoFar % NUM_EPS_UPDATE == 0:
+            print('Reinforcement Learning Status:')
+            windowAvg = self.lastWindowAccumRewards / float(NUM_EPS_UPDATE)
+            if self.episodesSoFar <= self.numTraining:
+                trainAvg = self.accumTrainRewards / float(self.episodesSoFar)
+                print('\tCompleted %d out of %d training episodes' % (
+                       self.episodesSoFar,self.numTraining))
+                print('\tAverage Rewards over all training: %.2f' % (
+                        trainAvg))
+            else:
+                testAvg = float(self.accumTestRewards) / (self.episodesSoFar - self.numTraining)
+                print('\tCompleted %d test episodes' % (self.episodesSoFar - self.numTraining))
+                print('\tAverage Rewards over testing: %.2f' % testAvg)
+            print('\tAverage Rewards for last %d episodes: %.2f'  % (
+                    NUM_EPS_UPDATE,windowAvg))
+            print('\tEpisode took %.2f seconds' % (time.time() - self.episodeStartTime))
+            self.lastWindowAccumRewards = 0.0
+            self.episodeStartTime = time.time()
+
+        if self.episodesSoFar == self.numTraining:
+            msg = 'Training Done (turning off epsilon and alpha)'
+            print('%s\n%s' % (msg,'-' * len(msg)))
+
+        # did we finish training?
+        if self.episodesSoFar == self.numTraining:
+            # you might want to print your weights here for debugging
+            "*** YOUR CODE HERE ***"
+            pass
+
+class EpisodicSemiGradientSarsaAgent(ApproximateQAgentSarsa):
+    """
+       EpisodicSemiGradientSarsaAgent
+
+       You should only have to overwrite the update function.  All other QLearningAgent functions
+       should work as is.
+    """
+    def __init__(self, extractor='IdentityExtractor', **args):
+        ApproximateQAgentSarsa.__init__(self, extractor, **args)
+
+    def update(self, state, action, nextState, nextAction, reward):
+        """
+           Should update your weights based on transition
+        """
+        "*** YOUR CODE HERE ***"
+        difference = (reward + self.discount*self.getQValue(nextState, nextAction)) - self.getQValue(state, action)
+        featureVector = self.featExtractor.getFeatures(state, action)
+        for feature in featureVector:
+          self.weights[feature] = self.weights[feature] + self.alpha*difference*featureVector[feature]
+        # util.raiseNotDefined()
+
+class TrueOnlineSarsaAgent(ApproximateQAgentSarsa):
+    """
+       TrueOnlineSarsaAgent
+
+       You should only have to overwrite the update function.  All other QLearningAgent functions
+       should work as is.
+    """
+    def __init__(self, extractor='IdentityExtractor', traceDecayRate=0.5, **args):
+        ApproximateQAgentSarsa.__init__(self, extractor, **args)
+        self.traceDecayRate = traceDecayRate
+
+    def startEpisode(self):
+        """
+          Called by environment when new episode is starting
+        """
+        ApproximateQAgentSarsa.startEpisode(self)
+        # initializing Q_old and z for each episode in true online sarsa algorithm
+        self.Q_old = 0.0
+        self.eligiblityTrace = util.Counter()
+
+    def update(self, state, action, nextState, nextAction, reward):
+        """
+           Should update your weights based on transition
+        """
+        "*** YOUR CODE HERE ***"
+        difference = (reward + self.discount*self.getQValue(nextState, nextAction)) - self.getQValue(state, action)
+        featureVector = self.featExtractor.getFeatures(state, action)
+        for feature in featureVector:
+          self.weights[feature] = self.weights[feature] + self.alpha*difference*featureVector[feature]
+        # util.raiseNotDefined()
