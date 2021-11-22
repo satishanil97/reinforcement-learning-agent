@@ -292,7 +292,7 @@ class ApproximateQAgentSarsa(ApproximateQAgent):
         self.lastWindowAccumRewards += state.getScore()
 
         # SARSA Logic, Setting reward update frequency
-        NUM_EPS_UPDATE = 10
+        NUM_EPS_UPDATE = 100
         if self.episodesSoFar % NUM_EPS_UPDATE == 0:
             print('Reinforcement Learning Status:')
             windowAvg = self.lastWindowAccumRewards / float(NUM_EPS_UPDATE)
@@ -352,7 +352,7 @@ class TrueOnlineSarsaAgent(ApproximateQAgentSarsa):
     """
     def __init__(self, extractor='IdentityExtractor', traceDecayRate=0.5, **args):
         ApproximateQAgentSarsa.__init__(self, extractor, **args)
-        self.traceDecayRate = traceDecayRate
+        self.traceDecayRate = float(traceDecayRate)
 
     def startEpisode(self):
         """
@@ -368,8 +368,20 @@ class TrueOnlineSarsaAgent(ApproximateQAgentSarsa):
            Should update your weights based on transition
         """
         "*** YOUR CODE HERE ***"
-        difference = (reward + self.discount*self.getQValue(nextState, nextAction)) - self.getQValue(state, action)
+        Q_value = self.getQValue(state, action)
+        Q_dash = self.getQValue(nextState, nextAction)
+        delta = (reward + self.discount*Q_dash) - Q_value
         featureVector = self.featExtractor.getFeatures(state, action)
+        dot_product = sum([self.eligiblityTrace[feature]*featureVector[feature] for feature in featureVector])
+        
         for feature in featureVector:
-          self.weights[feature] = self.weights[feature] + self.alpha*difference*featureVector[feature]
+          self.eligiblityTrace[feature] = (self.discount * self.traceDecayRate * self.eligiblityTrace[feature]) + \
+            (1 - self.alpha*self.discount*self.traceDecayRate*dot_product)*featureVector[feature]
+        
+        for feature in featureVector:
+          self.weights[feature] = self.weights[feature] + (self.alpha * (delta + Q_value - self.Q_old) * \
+            self.eligiblityTrace[feature]) - (self.alpha * (Q_value - self.Q_old) * featureVector[feature])
+
+          self.Q_old = Q_dash
+
         # util.raiseNotDefined()
