@@ -179,6 +179,10 @@ class ReinforcementAgent(ValueEstimationAgent):
         self.epsilon = float(epsilon)
         self.alpha = float(alpha)
         self.discount = float(gamma)
+        # DATA COLLECTION
+        # self.runHistory = {} # or any data structure to hold data in format of :
+        # { 'Num Training Episode': [1,2,3,...], 'Average Rewards over all training': [127.8, 129.4, ...], \
+        # 'Reward for last episode': [128.9, 130.4, ...], 'Alpha': 0.9, 'Epsilon': 0.1, 'Gamma': 0.5, 'Lambda': 0.3 }
 
     ################################
     # Controls needed for Crawler  #
@@ -218,6 +222,10 @@ class ReinforcementAgent(ValueEstimationAgent):
         if self.episodesSoFar == 0:
             print('Beginning %d episodes of Training' % (self.numTraining))
 
+    # DATA COLLECTION
+    # def saveRunHistory(self, fileName):
+        #append data in self.runHistory to csv/xlsx file <fileName>
+
     def final(self, state):
         """
           Called by Pacman game at the terminal state
@@ -252,6 +260,10 @@ class ReinforcementAgent(ValueEstimationAgent):
             print('\tEpisode took %.2f seconds' % (time.time() - self.episodeStartTime))
             self.lastWindowAccumRewards = 0.0
             self.episodeStartTime = time.time()
+        # DATA COLLECTION
+        # self.runHistory['Num Training Episode'].append(self.episodesSoFar)
+        # ....
+        # append whatever needs to be added to the columns/keys for current row in self.runHistory, append None/'NA' if the value is not defined
 
         if self.episodesSoFar == self.numTraining:
             msg = 'Training Done (turning off epsilon and alpha)'

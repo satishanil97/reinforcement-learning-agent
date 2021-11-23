@@ -312,6 +312,10 @@ class ApproximateQAgentSarsa(ApproximateQAgent):
             self.lastWindowAccumRewards = 0.0
             self.episodeStartTime = time.time()
 
+        # DATA COLLECTION
+        # self.runHistory['Num Training Episode'].append(self.episodesSoFar)
+        # ....
+        # append whatever needs to be added to the columns/keys for current row in self.runHistory, append None/'NA' if the value is not defined
         if self.episodesSoFar == self.numTraining:
             msg = 'Training Done (turning off epsilon and alpha)'
             print('%s\n%s' % (msg,'-' * len(msg)))

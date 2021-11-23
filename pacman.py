@@ -716,6 +716,10 @@ def runGames(layout, pacman, ghosts, display, numGames, record, numTraining=0, c
         print('Record:       ', ', '.join(
             [['Loss', 'Win'][int(w)] for w in wins]))
 
+    # DATA COLLECTION
+    # APPEND Pacman Performance Results to CSV/xslx file
+    # fileName = '<Algorithm>-<GridName>.<extension>'
+    # pacman.saveRunHistory(fileName)
     return games
 
 
