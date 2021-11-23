@@ -22,6 +22,7 @@
 def question2():
     answerDiscount = 0.9
     answerNoise = 0.01
+    # answerNoise = 0.2
     return answerDiscount, answerNoise
 
 def question3a():
@@ -32,9 +33,9 @@ def question3a():
     # If not possible, return 'NOT POSSIBLE'
 
 def question3b():
-    answerDiscount = 0.3
-    answerNoise = 0.2
-    answerLivingReward = 0
+    answerDiscount = 0.00021
+    answerNoise = 0.5
+    answerLivingReward = -3
     return answerDiscount, answerNoise, answerLivingReward
     # If not possible, return 'NOT POSSIBLE'
 
@@ -47,23 +48,24 @@ def question3c():
 
 def question3d():
     answerDiscount = 0.9
-    answerNoise = 0.4
-    answerLivingReward = 0
+    answerNoise = 0.5
+    answerLivingReward = -0.01
     return answerDiscount, answerNoise, answerLivingReward
     # If not possible, return 'NOT POSSIBLE'
 
 def question3e():
     answerDiscount = 0.9
-    answerNoise = 0.4
-    answerLivingReward = 5
+    answerNoise = 0.1
+    answerLivingReward = 100
     return answerDiscount, answerNoise, answerLivingReward
     # If not possible, return 'NOT POSSIBLE'
 
 def question8():
-    answerEpsilon = 0
-    answerLearningRate = 0.5
-    #return answerEpsilon, answerLearningRate
+    answerEpsilon = None
+    answerLearningRate = None
+    # return answerEpsilon, answerLearningRate
     return 'NOT POSSIBLE'
+    # If not possible, return 'NOT POSSIBLE'
 
 if __name__ == '__main__':
     print('Answers to analysis questions:')

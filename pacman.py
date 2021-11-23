@@ -39,6 +39,8 @@ code to run a game.  This file is divided into three sections:
 To play your first game, type 'python pacman.py' from the command line.
 The keys are 'a', 's', 'd', and 'w' to move (or arrow keys).  Have fun!
 """
+import numpy as np
+
 from game import GameStateData
 from game import Game
 from game import Directions
@@ -716,6 +718,8 @@ def runGames(layout, pacman, ghosts, display, numGames, record, numTraining=0, c
         print('Record:       ', ', '.join(
             [['Loss', 'Win'][int(w)] for w in wins]))
 
+    with open('data.csv','a') as csvfile:
+        np.savetxt(csvfile, np.array(pacman.runHistory), delimiter=',', fmt='%f')
     return games
 
 
