@@ -718,8 +718,12 @@ def runGames(layout, pacman, ghosts, display, numGames, record, numTraining=0, c
 
     # DATA COLLECTION
     # APPEND Pacman Performance Results to CSV/xslx file
-    # fileName = '<Algorithm>-<GridName>.<extension>'
-    # pacman.saveRunHistory(fileName)
+
+    #print("Algo Name........",pacman.__class__.__name__)
+    fileName = "output_" + str(pacman.__class__.__name__) + "_" + str(layout.layoutName) + ".csv"
+    print(fileName)
+    pacman.saveRunHistory(fileName)
+
     return games
 
 

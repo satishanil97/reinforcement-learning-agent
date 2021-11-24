@@ -11,6 +11,8 @@
 # Student side autograding was added by Brad Miller, Nick Hay, and
 # Pieter Abbeel (pabbeel@cs.berkeley.edu).
 
+from os.path import exists
+import csv
 
 from game import Directions, Agent, Actions
 
@@ -179,6 +181,9 @@ class ReinforcementAgent(ValueEstimationAgent):
         self.epsilon = float(epsilon)
         self.alpha = float(alpha)
         self.discount = float(gamma)
+        self.runHistory = {'NumTrainingEpisode':[],'AvgRewardsForAll':[],'LastEpisodeReward':[], \
+            'Alpha':self.alpha,'Epsilon':self.epsilon,'Gamma':self.discount}
+
         # DATA COLLECTION
         # self.runHistory = {} # or any data structure to hold data in format of :
         # { 'Num Training Episode': [1,2,3,...], 'Average Rewards over all training': [127.8, 129.4, ...], \
@@ -223,9 +228,38 @@ class ReinforcementAgent(ValueEstimationAgent):
             print('Beginning %d episodes of Training' % (self.numTraining))
 
     # DATA COLLECTION
-    # def saveRunHistory(self, fileName):
-        #append data in self.runHistory to csv/xlsx file <fileName>
+    #append data in self.runHistory to csv/xlsx file <fileName>
+    #filename format mentioned in pacman.py
 
+    def saveRunHistory(self, fileName='output.csv'):
+
+        listfields = [k for k,v in self.runHistory.items() if isinstance(v, list)]
+        constfields = [k for k,v in self.runHistory.items() if not isinstance(v, list)]
+        numrows = len(self.runHistory['NumTrainingEpisode'])
+
+        # Writing Header row
+        if not exists(fileName):    
+            with open(fileName, 'w') as outputfile:
+                csvwriter = csv.writer(outputfile) 
+                fields = listfields + constfields
+                csvwriter.writerow(fields)
+                outputfile.close()
+
+        # Writing runHistiry to output file 
+        with open(fileName, 'a') as outputfile: 
+            csvwriter = csv.writer(outputfile)
+            for i in range(numrows): 
+                row=[[]]
+                
+                for each in listfields:
+                    row[0].append(self.runHistory[each][i])
+                for each in constfields:
+                    row[0].append(self.runHistory[each])
+
+                csvwriter.writerows(row)
+            
+            outputfile.close()
+        
     def final(self, state):
         """
           Called by Pacman game at the terminal state
@@ -241,7 +275,7 @@ class ReinforcementAgent(ValueEstimationAgent):
             self.lastWindowAccumRewards = 0.0
         self.lastWindowAccumRewards += state.getScore()
 
-        NUM_EPS_UPDATE = 100
+        NUM_EPS_UPDATE = 5
         if self.episodesSoFar % NUM_EPS_UPDATE == 0:
             print('Reinforcement Learning Status:')
             windowAvg = self.lastWindowAccumRewards / float(NUM_EPS_UPDATE)
@@ -260,6 +294,7 @@ class ReinforcementAgent(ValueEstimationAgent):
             print('\tEpisode took %.2f seconds' % (time.time() - self.episodeStartTime))
             self.lastWindowAccumRewards = 0.0
             self.episodeStartTime = time.time()
+            
         # DATA COLLECTION
         # self.runHistory['Num Training Episode'].append(self.episodesSoFar)
         # ....
@@ -268,3 +303,17 @@ class ReinforcementAgent(ValueEstimationAgent):
         if self.episodesSoFar == self.numTraining:
             msg = 'Training Done (turning off epsilon and alpha)'
             print('%s\n%s' % (msg,'-' * len(msg)))
+
+        """
+        fields = ['NumTrainingEpisode', 'AvgRewardsForAll', 'LastEpisodeReward', 'Alpha','Epsilon','Gamma','Lambda']
+        NumTrainingEpisode - self.episodesSoFar
+        AvgRewardsForAll - self.accumTrainRewards / float(self.episodesSoFar)
+        LastEpisodeReward - self.lastWindowAccumRewards 
+        """
+
+        if self.episodesSoFar <= self.numTraining:
+            self.runHistory['NumTrainingEpisode'].append(self.episodesSoFar)
+            self.runHistory['AvgRewardsForAll'].append(self.accumTrainRewards / float(self.episodesSoFar))
+            self.runHistory['LastEpisodeReward'].append(self.lastWindowAccumRewards)
+
+        #print(self.runHistory)
