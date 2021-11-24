@@ -721,7 +721,7 @@ def runGames(layout, pacman, ghosts, display, numGames, record, numTraining=0, c
 
     #print("Algo Name........",pacman.__class__.__name__)
     fileName = "output_" + str(pacman.__class__.__name__) + "_" + str(layout.layoutName) + ".csv"
-    print(fileName)
+    print("Output of training available in: ",fileName)
     pacman.saveRunHistory(fileName)
 
     return games
