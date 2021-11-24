@@ -325,6 +325,20 @@ class ApproximateQAgentSarsa(ApproximateQAgent):
             # you might want to print your weights here for debugging
             "*** YOUR CODE HERE ***"
             pass
+        
+        """
+        fields = ['NumTrainingEpisode', 'AvgRewardsForAll', 'LastEpisodeReward', 'Alpha','Epsilon','Gamma','Lambda']
+        NumTrainingEpisode - self.episodesSoFar
+        AvgRewardsForAll - self.accumTrainRewards / float(self.episodesSoFar)
+        LastEpisodeReward - self.lastWindowAccumRewards 
+        """
+
+        if self.episodesSoFar <= self.numTraining:
+            self.runHistory['NumTrainingEpisode'].append(self.episodesSoFar)
+            self.runHistory['AvgRewardsForAll'].append(self.accumTrainRewards / float(self.episodesSoFar))
+            self.runHistory['LastEpisodeReward'].append(self.lastWindowAccumRewards)
+
+        #print(self.runHistory)
 
 class EpisodicSemiGradientSarsaAgent(ApproximateQAgentSarsa):
     """
@@ -346,7 +360,7 @@ class EpisodicSemiGradientSarsaAgent(ApproximateQAgentSarsa):
         for feature in featureVector:
           self.weights[feature] = self.weights[feature] + self.alpha*difference*featureVector[feature]
         # util.raiseNotDefined()
-
+ 
 class TrueOnlineSarsaAgent(ApproximateQAgentSarsa):
     """
        TrueOnlineSarsaAgent
