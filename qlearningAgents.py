@@ -327,16 +327,16 @@ class ApproximateQAgentSarsa(ApproximateQAgent):
             pass
         
         """
-        fields = ['NumTrainingEpisode', 'AvgRewardsForAll', 'LastEpisodeReward', 'Alpha','Epsilon','Gamma','Lambda']
+        fields = ['NumTrainingEpisode', 'AvgRewardsForAll', 'EpisodeReward', 'Alpha','Epsilon','Gamma','Lambda']
         NumTrainingEpisode - self.episodesSoFar
         AvgRewardsForAll - self.accumTrainRewards / float(self.episodesSoFar)
-        LastEpisodeReward - self.lastWindowAccumRewards 
+        EpisodeReward - self.episodeRewards 
         """
 
         if self.episodesSoFar <= self.numTraining:
             self.runHistory['NumTrainingEpisode'].append(self.episodesSoFar)
             self.runHistory['AvgRewardsForAll'].append(self.accumTrainRewards / float(self.episodesSoFar))
-            self.runHistory['LastEpisodeReward'].append(self.lastWindowAccumRewards)
+            self.runHistory['EpisodeReward'].append(self.episodeRewards)
 
         #print(self.runHistory)
 
@@ -371,6 +371,7 @@ class TrueOnlineSarsaAgent(ApproximateQAgentSarsa):
     def __init__(self, extractor='IdentityExtractor', traceDecayRate=0.5, **args):
         ApproximateQAgentSarsa.__init__(self, extractor, **args)
         self.traceDecayRate = float(traceDecayRate)
+        self.runHistory['Lambda'] = self.traceDecayRate
 
     def startEpisode(self):
         """

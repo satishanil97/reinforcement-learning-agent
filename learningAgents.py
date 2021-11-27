@@ -181,8 +181,8 @@ class ReinforcementAgent(ValueEstimationAgent):
         self.epsilon = float(epsilon)
         self.alpha = float(alpha)
         self.discount = float(gamma)
-        self.runHistory = {'NumTrainingEpisode':[],'AvgRewardsForAll':[],'LastEpisodeReward':[], \
-            'Alpha':self.alpha,'Epsilon':self.epsilon,'Gamma':self.discount}
+        self.runHistory = {'NumTrainingEpisode':[],'AvgRewardsForAll':[],'EpisodeReward':[], \
+            'Alpha':self.alpha,'Epsilon':self.epsilon,'Gamma':self.discount, 'Lambda': '-NA-'}
 
         # DATA COLLECTION
         # self.runHistory = {} # or any data structure to hold data in format of :
@@ -305,15 +305,15 @@ class ReinforcementAgent(ValueEstimationAgent):
             print('%s\n%s' % (msg,'-' * len(msg)))
 
         """
-        fields = ['NumTrainingEpisode', 'AvgRewardsForAll', 'LastEpisodeReward', 'Alpha','Epsilon','Gamma','Lambda']
+        fields = ['NumTrainingEpisode', 'AvgRewardsForAll', 'EpisodeReward', 'Alpha','Epsilon','Gamma','Lambda']
         NumTrainingEpisode - self.episodesSoFar
         AvgRewardsForAll - self.accumTrainRewards / float(self.episodesSoFar)
-        LastEpisodeReward - self.lastWindowAccumRewards 
+        EpisodeReward - self.episodeRewards 
         """
 
         if self.episodesSoFar <= self.numTraining:
             self.runHistory['NumTrainingEpisode'].append(self.episodesSoFar)
             self.runHistory['AvgRewardsForAll'].append(self.accumTrainRewards / float(self.episodesSoFar))
-            self.runHistory['LastEpisodeReward'].append(self.lastWindowAccumRewards)
+            self.runHistory['EpisodeReward'].append(self.episodeRewards)
 
         #print(self.runHistory)
