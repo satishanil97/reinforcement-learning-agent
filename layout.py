@@ -37,6 +37,7 @@ class Layout:
         self.processLayoutText(layoutText)
         self.layoutText = layoutText
         self.totalFood = len(self.food.asList())
+        self.layoutName = None
         # self.initializeVisibilityMatrix()
 
     def getNumGhosts(self):
@@ -138,6 +139,7 @@ class Layout:
 
 
 def getLayout(name, back=2):
+    
     if name.endswith('.lay'):
         layout = tryToLoad('layouts/' + name)
         if layout == None:
@@ -151,6 +153,8 @@ def getLayout(name, back=2):
         os.chdir('..')
         layout = getLayout(name, back - 1)
         os.chdir(curdir)
+
+    layout.layoutName = name
     return layout
 
 

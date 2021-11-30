@@ -325,6 +325,20 @@ class ApproximateQAgentSarsa(ApproximateQAgent):
             # you might want to print your weights here for debugging
             "*** YOUR CODE HERE ***"
             pass
+        
+        """
+        fields = ['NumTrainingEpisode', 'AvgRewardsForAll', 'EpisodeReward', 'Alpha','Epsilon','Gamma','Lambda']
+        NumTrainingEpisode - self.episodesSoFar
+        AvgRewardsForAll - self.accumTrainRewards / float(self.episodesSoFar)
+        EpisodeReward - self.episodeRewards 
+        """
+
+        if self.episodesSoFar <= self.numTraining:
+            self.runHistory['NumTrainingEpisode'].append(self.episodesSoFar)
+            self.runHistory['AvgRewardsForAll'].append(self.accumTrainRewards / float(self.episodesSoFar))
+            self.runHistory['EpisodeReward'].append(self.episodeRewards)
+
+        #print(self.runHistory)
 
 class EpisodicSemiGradientSarsaAgent(ApproximateQAgentSarsa):
     """
@@ -346,7 +360,7 @@ class EpisodicSemiGradientSarsaAgent(ApproximateQAgentSarsa):
         for feature in featureVector:
           self.weights[feature] = self.weights[feature] + self.alpha*difference*featureVector[feature]
         # util.raiseNotDefined()
-
+ 
 class TrueOnlineSarsaAgent(ApproximateQAgentSarsa):
     """
        TrueOnlineSarsaAgent
@@ -357,6 +371,7 @@ class TrueOnlineSarsaAgent(ApproximateQAgentSarsa):
     def __init__(self, extractor='IdentityExtractor', traceDecayRate=0.5, **args):
         ApproximateQAgentSarsa.__init__(self, extractor, **args)
         self.traceDecayRate = float(traceDecayRate)
+        self.runHistory['Lambda'] = self.traceDecayRate
 
     def startEpisode(self):
         """
