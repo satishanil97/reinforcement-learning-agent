@@ -19,20 +19,26 @@ qlearningAgents.py -> EpisodicSemiGradientSarsaAgent: class to implement Episodi
 
 qlearningAgents.py -> TrueOnlineSarsaAgent: class to implement True Online Sarsa algorithm (extends ApproximateQAgentSarsa)
 
+To run pacman agent n times, run: python pacman.py n <..rem args>
+
+Below samples show command to run once
+
 To run normal qLearning agent
 
-python pacman.py -p ApproximateQAgent -a extractor=SimpleExtractor -x 2000 -n 2000 -l smallGrid
+python pacman.py 1 -p ApproximateQAgent -a extractor=SimpleExtractor -x 2000 -n 2000 -l smallGrid
 
 To run EpisodicSemiGradientSarsaAgent
 
-python pacman.py -p EpisodicSemiGradientSarsaAgent -a extractor=SimpleExtractor -x 2000 -n 2000 -l smallGrid
+python pacman.py 1 -p EpisodicSemiGradientSarsaAgent -a extractor=SimpleExtractor -x 1000 -n 1000 -l smallGrid
 
 To run TrueOnlineSarsaAgent
 
 with default lambda=0.5
 
-python pacman.py -p TrueOnlineSarsaAgent -a extractor=SimpleExtractor -x 2000 -n 2000 -l smallGrid
+python pacman.py 1 -p TrueOnlineSarsaAgent -a extractor=SimpleExtractor -x 2000 -n 2000 -l smallGrid
 
 with custom lambda
 
-python pacman.py -p TrueOnlineSarsaAgent -a extractor=SimpleExtractor,traceDecayRate=0.9 -x 2000 -n 2000 -l smallGrid
+python pacman.py 1 -p TrueOnlineSarsaAgent -a extractor=SimpleExtractor,traceDecayRate=0.9 -x 2000 -n 2000 -l smallGrid
+
+python pacman.py 1 -p TrueOnlineSarsaAgent -a extractor=SimpleExtractor,traceDecayRate=0.9 -x 1000 -n 1000 -l smallGrid
