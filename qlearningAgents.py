@@ -368,7 +368,7 @@ class TrueOnlineSarsaAgent(ApproximateQAgentSarsa):
        You should only have to overwrite the update function.  All other QLearningAgent functions
        should work as is.
     """
-    def __init__(self, extractor='IdentityExtractor', traceDecayRate=0.5, **args):
+    def __init__(self, extractor='IdentityExtractor', traceDecayRate=0.4, **args):
         ApproximateQAgentSarsa.__init__(self, extractor, **args)
         self.traceDecayRate = float(traceDecayRate)
         self.runHistory['Lambda'] = self.traceDecayRate
