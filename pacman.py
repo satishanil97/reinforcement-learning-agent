@@ -738,11 +738,8 @@ if __name__ == '__main__':
 
     > python pacman.py --help
     """
-    numRuns = int(sys.argv[1])
-    for i in range(numRuns):
-        print('>>>> RUN NO:',i+1,'<<<<')
-        args = readCommand(sys.argv[2:])  # Get game components based on input
-        runGames(**args)
+    args = readCommand(sys.argv[1:])  # Get game components based on input
+    runGames(**args)
 
     # import cProfile
     # cProfile.run("runGames( **args )")
