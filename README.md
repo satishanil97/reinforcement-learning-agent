@@ -60,7 +60,7 @@ too high (> 20 sec): trickyClassic (29.22), originalClassic (112.97)
 
 #### Testing Strategy ####
 
-epsilon=0.05,gamma=0.8,alpha=0.2 (default values of project 4)
+epsilon=0.05,gamma=0.8,alpha=0.2 (default values of project 4), lambda=0.4 (defaultValue updated to this)
 
 Run each layout-algo combination for 25 runs (in python 3.6 conda env of cse571)
 
@@ -69,10 +69,6 @@ Agents: ApproximateQAgent, EpisodicSemiGradientSarsaAgent, TrueOnlineSarsaAgent
 Environments Set 1: smallGrid, smallClassic, trappedClassic, capsuleClassic, originalClassic
 
 Environments Set 2: mediumGrid, testClassic, minimaxClassic, powerClassic, openClassic, trickyClassic, contestClassic, mediumClassic
-
-lamda values to test: 0.2, 0.4, 0.6, 0.8, 1
-
-lambda_map: {1:0.2, 2:0.4, 3:0.6, 4:0.8, 5:1}
 
 2 people split testing. One person takes up <Environment Set 1>, the other takes up <Environment Set 2>
 
@@ -88,14 +84,6 @@ for layout in env_set {
 
     python pacman.py 25 -p EpisodicSemiGradientSarsaAgent -a extractor=SimpleExtractor -x 2000 -n 2000 -l layout > output_redirect_file 2>&1 &
 
-    for key, lambda_value in lambda_map {
-
-        # output_redirect_file format for true online sarsa: console_<layout>_<agent>_<key>.txt
-        
-        python pacman.py 25 -p TrueOnlineSarsaAgent -a extractor=SimpleExtractor,traceDecayRate=lambda_value -x 2000 -n 2000 -l layout > output_redirect_file 2>&1 &
-
-    }
+    python pacman.py 25 -p TrueOnlineSarsaAgent -a extractor=SimpleExtractor -x 2000 -n 2000 -l layout > output_redirect_file 2>&1 &
     
 }
-
-Leave programs running overnight
