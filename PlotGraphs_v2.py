@@ -9,6 +9,11 @@ data = raw_data.view((float, len(raw_data.dtype.names)))
 
 param_combos = np.vstack(tuple({tuple(e) for e in data[:,[3,4,5,6]]}))
 
+plt.rcParams["figure.figsize"] = (20,20)
+
+# Code to compare 0.5, 0.4, 0.6 for lambda
+# param_combos = [each for each in param_combos if each[3]==0.4 or each[3]==0.5 or each[3]==0.6]
+
 for each in param_combos:
     #print(each[0],each[1],each[2],each[3])
     label= "Alpha=" + str(each[0]) + " ; Epsilon=" + str(each[1]) + " ; Gamma=" + str(each[2]) + " ; Lambda=" + str(each[3])
