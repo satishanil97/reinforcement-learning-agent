@@ -19,29 +19,27 @@ qlearningAgents.py -> EpisodicSemiGradientSarsaAgent: class to implement Episodi
 
 qlearningAgents.py -> TrueOnlineSarsaAgent: class to implement True Online Sarsa algorithm (extends ApproximateQAgentSarsa)
 
-To run pacman agent n times, run: python pacman.py n <..rem args>
-
 Below samples show command to run once
 
 To run normal qLearning agent
 
-python pacman.py 1 -p ApproximateQAgent -a extractor=SimpleExtractor -x 1000 -n 1000 -l originalClassic
+python pacman.py -p ApproximateQAgent -a extractor=SimpleExtractor -x 1000 -n 1000 -l originalClassic
 
 To run EpisodicSemiGradientSarsaAgent
 
-python pacman.py 3 -p EpisodicSemiGradientSarsaAgent -a extractor=SimpleExtractor -x 1000 -n 1000 -l smallClassic
+python pacman.py -p EpisodicSemiGradientSarsaAgent -a extractor=SimpleExtractor -x 1000 -n 1000 -l smallClassic
 
 To run TrueOnlineSarsaAgent
 
 with default lambda=0.5
 
-python pacman.py 3 -p TrueOnlineSarsaAgent -a extractor=SimpleExtractor -x 1000 -n 1000 -l smallClassic
+python pacman.py -p TrueOnlineSarsaAgent -a extractor=SimpleExtractor -x 1000 -n 1000 -l smallClassic
 
 with custom lambda
 
-python pacman.py 1 -p TrueOnlineSarsaAgent -a extractor=SimpleExtractor,traceDecayRate=0.9 -x 2000 -n 2000 -l smallGrid
+python pacman.py -p TrueOnlineSarsaAgent -a extractor=SimpleExtractor,traceDecayRate=0.9 -x 2000 -n 2000 -l smallGrid
 
-python pacman.py 1 -p TrueOnlineSarsaAgent -a extractor=SimpleExtractor,traceDecayRate=0.9 -x 1000 -n 1000 -l smallGrid
+python pacman.py -p TrueOnlineSarsaAgent -a extractor=SimpleExtractor,traceDecayRate=0.9 -x 1000 -n 1000 -l smallGrid
 
 #### Short Testing observations of runtime ####
 
@@ -79,11 +77,28 @@ activate virtual environment cse571
 for layout in env_set {
 
     # output_redirect_file format for non-lamda agents: console_<layout>_<agent>.txt
+    #replace commands in runPacman.sh with below commands
 
-    python pacman.py 25 -p ApproximateQAgent -a extractor=SimpleExtractor -x 2000 -n 2000 -l layout > output_redirect_file 2>&1 &
+    python pacman.py -p ApproximateQAgent -a extractor=SimpleExtractor -x 2000 -n 2000 -l layout > output_redirect_file
 
-    python pacman.py 25 -p EpisodicSemiGradientSarsaAgent -a extractor=SimpleExtractor -x 2000 -n 2000 -l layout > output_redirect_file 2>&1 &
+    python pacman.py -p EpisodicSemiGradientSarsaAgent -a extractor=SimpleExtractor -x 2000 -n 2000 -l layout > output_redirect_file
 
-    python pacman.py 25 -p TrueOnlineSarsaAgent -a extractor=SimpleExtractor -x 2000 -n 2000 -l layout > output_redirect_file 2>&1 &
+    python pacman.py -p TrueOnlineSarsaAgent -a extractor=SimpleExtractor -x 2000 -n 2000 -l layout > output_redirect_file
     
 }
+
+Run:
+
+./runPacman.sh > runPacmanOutput.txt 2>&1 &
+
+tail runPacmanOutput.txt occasionally to see latest status:
+
+tail -f runPacmanOutput.txt
+
+To monitor current pacman agent:
+
+ps -ef | grep pacman
+
+to monitor runPacman script:
+
+ps -ef | grep runPacman
