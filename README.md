@@ -76,29 +76,27 @@ activate virtual environment cse571
 
 for layout in env_set {
 
-    # output_redirect_file format for non-lamda agents: console_<layout>_<agent>.txt
-    #replace commands in runPacman.sh with below commands
+    # run format: 
+    # output_redirect_file format for non-lamda agents: <layout>_runPacmanOutput.txt
+    # this will run 3 runs at a time (one for each algo) for 25 times
+    Run:
+    ./runPacman.sh 25 layout output_redirect_file
 
-    python pacman.py -p ApproximateQAgent -a extractor=SimpleExtractor -x 2000 -n 2000 -l layout > output_redirect_file
+    tail <output_redirect_file> occasionally to see latest status:
 
-    python pacman.py -p EpisodicSemiGradientSarsaAgent -a extractor=SimpleExtractor -x 2000 -n 2000 -l layout > output_redirect_file
-
-    python pacman.py -p TrueOnlineSarsaAgent -a extractor=SimpleExtractor -x 2000 -n 2000 -l layout > output_redirect_file
+    tail <output_redirect_file>
     
 }
 
-Run:
+eg: ./runPacman.sh 25 smallClassic smallClassic_runPacmanOutput.txt
 
-./runPacman.sh > runPacmanOutput.txt 2>&1 &
-
-tail runPacmanOutput.txt occasionally to see latest status:
-
-tail runPacmanOutput.txt
-
-To monitor current pacman agent:
+To monitor current pacman agents:
 
 ps -ef | grep pacman
 
-to monitor runPacman script:
+to monitor runPacman scripts:
 
 ps -ef | grep runPacman
+
+To kill entire execution:
+first kill processes in (ps -ef | grep runPacman), then: pkill -f 'pacman.py'
