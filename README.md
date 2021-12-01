@@ -93,7 +93,7 @@ Run:
 
 tail runPacmanOutput.txt occasionally to see latest status:
 
-tail -f runPacmanOutput.txt
+tail runPacmanOutput.txt
 
 To monitor current pacman agent:
 
