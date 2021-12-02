@@ -1,0 +1,39 @@
+Count 25
+
+Layout originalClassic
+
+OutputFileName console_originalClassic_ApproximateQAgent.txt
+
+OutputFileName console_originalClassic_EpisodicSemiGradientSarsaAgent.txt
+OutputFileName console_originalClassic_TrueOnlineSarsaAgent.txt
+
+COMPLETED 1 RUNS of EpisodicSemiGradientSarsaAgent
+
+COMPLETED 1 RUNS of TrueOnlineSarsaAgent
+
+COMPLETED 1 RUNS of ApproximateQAgent
+
+COMPLETED 2 RUNS of EpisodicSemiGradientSarsaAgent
+
+COMPLETED 2 RUNS of TrueOnlineSarsaAgent
+
+COMPLETED 2 RUNS of ApproximateQAgent
+
+COMPLETED 3 RUNS of EpisodicSemiGradientSarsaAgent
+
+COMPLETED 3 RUNS of TrueOnlineSarsaAgent
+
+COMPLETED 3 RUNS of ApproximateQAgent
+
+COMPLETED 4 RUNS of EpisodicSemiGradientSarsaAgent
+
+COMPLETED 4 RUNS of TrueOnlineSarsaAgent
+
+COMPLETED 4 RUNS of ApproximateQAgent
+
+COMPLETED 5 RUNS of EpisodicSemiGradientSarsaAgent
+
+COMPLETED 5 RUNS of TrueOnlineSarsaAgent
+
+COMPLETED 5 RUNS of ApproximateQAgent
+
