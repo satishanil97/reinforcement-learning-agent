@@ -1,0 +1,2625 @@
+>>>> RUN NO: 1 <<<<
+Beginning 2000 episodes of Training
+Reinforcement Learning Status:
+	Completed 100 out of 2000 training episodes
+	Average Rewards over all training: 169.77
+	Average Rewards for last 100 episodes: 169.77
+	Episode took 1.37 seconds
+Reinforcement Learning Status:
+	Completed 200 out of 2000 training episodes
+	Average Rewards over all training: 169.42
+	Average Rewards for last 100 episodes: 169.07
+	Episode took 1.47 seconds
+Reinforcement Learning Status:
+	Completed 300 out of 2000 training episodes
+	Average Rewards over all training: 156.20
+	Average Rewards for last 100 episodes: 129.77
+	Episode took 1.38 seconds
+Reinforcement Learning Status:
+	Completed 400 out of 2000 training episodes
+	Average Rewards over all training: 169.77
+	Average Rewards for last 100 episodes: 210.47
+	Episode took 1.41 seconds
+Reinforcement Learning Status:
+	Completed 500 out of 2000 training episodes
+	Average Rewards over all training: 157.59
+	Average Rewards for last 100 episodes: 108.89
+	Episode took 1.37 seconds
+Reinforcement Learning Status:
+	Completed 600 out of 2000 training episodes
+	Average Rewards over all training: 161.38
+	Average Rewards for last 100 episodes: 180.28
+	Episode took 1.30 seconds
+Reinforcement Learning Status:
+	Completed 700 out of 2000 training episodes
+	Average Rewards over all training: 165.45
+	Average Rewards for last 100 episodes: 189.90
+	Episode took 1.45 seconds
+Reinforcement Learning Status:
+	Completed 800 out of 2000 training episodes
+	Average Rewards over all training: 166.06
+	Average Rewards for last 100 episodes: 170.34
+	Episode took 1.36 seconds
+Reinforcement Learning Status:
+	Completed 900 out of 2000 training episodes
+	Average Rewards over all training: 166.47
+	Average Rewards for last 100 episodes: 169.73
+	Episode took 1.42 seconds
+Reinforcement Learning Status:
+	Completed 1000 out of 2000 training episodes
+	Average Rewards over all training: 158.75
+	Average Rewards for last 100 episodes: 89.26
+	Episode took 1.37 seconds
+Reinforcement Learning Status:
+	Completed 1100 out of 2000 training episodes
+	Average Rewards over all training: 160.73
+	Average Rewards for last 100 episodes: 180.50
+	Episode took 1.31 seconds
+Reinforcement Learning Status:
+	Completed 1200 out of 2000 training episodes
+	Average Rewards over all training: 164.01
+	Average Rewards for last 100 episodes: 200.16
+	Episode took 1.37 seconds
+Reinforcement Learning Status:
+	Completed 1300 out of 2000 training episodes
+	Average Rewards over all training: 165.98
+	Average Rewards for last 100 episodes: 189.59
+	Episode took 1.42 seconds
+Reinforcement Learning Status:
+	Completed 1400 out of 2000 training episodes
+	Average Rewards over all training: 164.79
+	Average Rewards for last 100 episodes: 149.31
+	Episode took 1.44 seconds
+Reinforcement Learning Status:
+	Completed 1500 out of 2000 training episodes
+	Average Rewards over all training: 161.74
+	Average Rewards for last 100 episodes: 119.11
+	Episode took 1.41 seconds
+Reinforcement Learning Status:
+	Completed 1600 out of 2000 training episodes
+	Average Rewards over all training: 161.65
+	Average Rewards for last 100 episodes: 160.27
+	Episode took 1.38 seconds
+Reinforcement Learning Status:
+	Completed 1700 out of 2000 training episodes
+	Average Rewards over all training: 155.58
+	Average Rewards for last 100 episodes: 58.47
+	Episode took 1.40 seconds
+Reinforcement Learning Status:
+	Completed 1800 out of 2000 training episodes
+	Average Rewards over all training: 156.37
+	Average Rewards for last 100 episodes: 169.73
+	Episode took 1.44 seconds
+Reinforcement Learning Status:
+	Completed 1900 out of 2000 training episodes
+	Average Rewards over all training: 157.62
+	Average Rewards for last 100 episodes: 180.12
+	Episode took 1.39 seconds
+Reinforcement Learning Status:
+	Completed 2000 out of 2000 training episodes
+	Average Rewards over all training: 158.23
+	Average Rewards for last 100 episodes: 169.95
+	Episode took 1.55 seconds
+Training Done (turning off epsilon and alpha)
+---------------------------------------------
+Output of training available in:  output_TrueOnlineSarsaAgent_smallGrid.csv
+>>>> RUN NO: 2 <<<<
+Beginning 2000 episodes of Training
+Reinforcement Learning Status:
+	Completed 100 out of 2000 training episodes
+	Average Rewards over all training: 159.57
+	Average Rewards for last 100 episodes: 159.57
+	Episode took 1.86 seconds
+Reinforcement Learning Status:
+	Completed 200 out of 2000 training episodes
+	Average Rewards over all training: 144.72
+	Average Rewards for last 100 episodes: 129.86
+	Episode took 1.79 seconds
+Reinforcement Learning Status:
+	Completed 300 out of 2000 training episodes
+	Average Rewards over all training: 133.02
+	Average Rewards for last 100 episodes: 109.64
+	Episode took 1.83 seconds
+Reinforcement Learning Status:
+	Completed 400 out of 2000 training episodes
+	Average Rewards over all training: 157.47
+	Average Rewards for last 100 episodes: 230.82
+	Episode took 1.42 seconds
+Reinforcement Learning Status:
+	Completed 500 out of 2000 training episodes
+	Average Rewards over all training: 135.77
+	Average Rewards for last 100 episodes: 48.96
+	Episode took 1.45 seconds
+Reinforcement Learning Status:
+	Completed 600 out of 2000 training episodes
+	Average Rewards over all training: 127.99
+	Average Rewards for last 100 episodes: 89.07
+	Episode took 1.42 seconds
+Reinforcement Learning Status:
+	Completed 700 out of 2000 training episodes
+	Average Rewards over all training: 125.29
+	Average Rewards for last 100 episodes: 109.13
+	Episode took 1.57 seconds
+Reinforcement Learning Status:
+	Completed 800 out of 2000 training episodes
+	Average Rewards over all training: 128.26
+	Average Rewards for last 100 episodes: 149.04
+	Episode took 1.59 seconds
+Reinforcement Learning Status:
+	Completed 900 out of 2000 training episodes
+	Average Rewards over all training: 128.40
+	Average Rewards for last 100 episodes: 129.47
+	Episode took 1.53 seconds
+Reinforcement Learning Status:
+	Completed 1000 out of 2000 training episodes
+	Average Rewards over all training: 119.48
+	Average Rewards for last 100 episodes: 39.24
+	Episode took 1.43 seconds
+Reinforcement Learning Status:
+	Completed 1100 out of 2000 training episodes
+	Average Rewards over all training: 127.79
+	Average Rewards for last 100 episodes: 210.86
+	Episode took 1.58 seconds
+Reinforcement Learning Status:
+	Completed 1200 out of 2000 training episodes
+	Average Rewards over all training: 127.11
+	Average Rewards for last 100 episodes: 119.62
+	Episode took 1.46 seconds
+Reinforcement Learning Status:
+	Completed 1300 out of 2000 training episodes
+	Average Rewards over all training: 138.96
+	Average Rewards for last 100 episodes: 281.19
+	Episode took 1.48 seconds
+Reinforcement Learning Status:
+	Completed 1400 out of 2000 training episodes
+	Average Rewards over all training: 139.04
+	Average Rewards for last 100 episodes: 140.11
+	Episode took 1.52 seconds
+Reinforcement Learning Status:
+	Completed 1500 out of 2000 training episodes
+	Average Rewards over all training: 143.07
+	Average Rewards for last 100 episodes: 199.45
+	Episode took 1.61 seconds
+Reinforcement Learning Status:
+	Completed 1600 out of 2000 training episodes
+	Average Rewards over all training: 147.27
+	Average Rewards for last 100 episodes: 210.27
+	Episode took 1.61 seconds
+Reinforcement Learning Status:
+	Completed 1700 out of 2000 training episodes
+	Average Rewards over all training: 147.40
+	Average Rewards for last 100 episodes: 149.56
+	Episode took 1.53 seconds
+Reinforcement Learning Status:
+	Completed 1800 out of 2000 training episodes
+	Average Rewards over all training: 149.72
+	Average Rewards for last 100 episodes: 189.05
+	Episode took 1.62 seconds
+Reinforcement Learning Status:
+	Completed 1900 out of 2000 training episodes
+	Average Rewards over all training: 147.58
+	Average Rewards for last 100 episodes: 109.14
+	Episode took 1.51 seconds
+Reinforcement Learning Status:
+	Completed 2000 out of 2000 training episodes
+	Average Rewards over all training: 150.67
+	Average Rewards for last 100 episodes: 209.39
+	Episode took 1.67 seconds
+Training Done (turning off epsilon and alpha)
+---------------------------------------------
+Output of training available in:  output_TrueOnlineSarsaAgent_smallGrid.csv
+>>>> RUN NO: 3 <<<<
+Beginning 2000 episodes of Training
+Reinforcement Learning Status:
+	Completed 100 out of 2000 training episodes
+	Average Rewards over all training: 149.84
+	Average Rewards for last 100 episodes: 149.84
+	Episode took 1.52 seconds
+Reinforcement Learning Status:
+	Completed 200 out of 2000 training episodes
+	Average Rewards over all training: 119.41
+	Average Rewards for last 100 episodes: 88.98
+	Episode took 1.61 seconds
+Reinforcement Learning Status:
+	Completed 300 out of 2000 training episodes
+	Average Rewards over all training: 146.38
+	Average Rewards for last 100 episodes: 200.33
+	Episode took 1.60 seconds
+Reinforcement Learning Status:
+	Completed 400 out of 2000 training episodes
+	Average Rewards over all training: 147.31
+	Average Rewards for last 100 episodes: 150.08
+	Episode took 1.64 seconds
+Reinforcement Learning Status:
+	Completed 500 out of 2000 training episodes
+	Average Rewards over all training: 147.72
+	Average Rewards for last 100 episodes: 149.37
+	Episode took 1.65 seconds
+Reinforcement Learning Status:
+	Completed 600 out of 2000 training episodes
+	Average Rewards over all training: 146.41
+	Average Rewards for last 100 episodes: 139.83
+	Episode took 1.50 seconds
+Reinforcement Learning Status:
+	Completed 700 out of 2000 training episodes
+	Average Rewards over all training: 152.57
+	Average Rewards for last 100 episodes: 189.56
+	Episode took 1.74 seconds
+Reinforcement Learning Status:
+	Completed 800 out of 2000 training episodes
+	Average Rewards over all training: 147.22
+	Average Rewards for last 100 episodes: 109.79
+	Episode took 1.62 seconds
+Reinforcement Learning Status:
+	Completed 900 out of 2000 training episodes
+	Average Rewards over all training: 136.30
+	Average Rewards for last 100 episodes: 48.88
+	Episode took 1.53 seconds
+Reinforcement Learning Status:
+	Completed 1000 out of 2000 training episodes
+	Average Rewards over all training: 136.67
+	Average Rewards for last 100 episodes: 140.04
+	Episode took 1.58 seconds
+Reinforcement Learning Status:
+	Completed 1100 out of 2000 training episodes
+	Average Rewards over all training: 142.45
+	Average Rewards for last 100 episodes: 200.21
+	Episode took 1.58 seconds
+Reinforcement Learning Status:
+	Completed 1200 out of 2000 training episodes
+	Average Rewards over all training: 144.76
+	Average Rewards for last 100 episodes: 170.20
+	Episode took 1.59 seconds
+Reinforcement Learning Status:
+	Completed 1300 out of 2000 training episodes
+	Average Rewards over all training: 145.91
+	Average Rewards for last 100 episodes: 159.67
+	Episode took 1.58 seconds
+Reinforcement Learning Status:
+	Completed 1400 out of 2000 training episodes
+	Average Rewards over all training: 148.40
+	Average Rewards for last 100 episodes: 180.78
+	Episode took 1.56 seconds
+Reinforcement Learning Status:
+	Completed 1500 out of 2000 training episodes
+	Average Rewards over all training: 147.04
+	Average Rewards for last 100 episodes: 128.10
+	Episode took 1.80 seconds
+Reinforcement Learning Status:
+	Completed 1600 out of 2000 training episodes
+	Average Rewards over all training: 142.78
+	Average Rewards for last 100 episodes: 78.88
+	Episode took 1.55 seconds
+Reinforcement Learning Status:
+	Completed 1700 out of 2000 training episodes
+	Average Rewards over all training: 147.34
+	Average Rewards for last 100 episodes: 220.18
+	Episode took 1.68 seconds
+Reinforcement Learning Status:
+	Completed 1800 out of 2000 training episodes
+	Average Rewards over all training: 144.08
+	Average Rewards for last 100 episodes: 88.79
+	Episode took 1.57 seconds
+Reinforcement Learning Status:
+	Completed 1900 out of 2000 training episodes
+	Average Rewards over all training: 141.15
+	Average Rewards for last 100 episodes: 88.31
+	Episode took 1.71 seconds
+Reinforcement Learning Status:
+	Completed 2000 out of 2000 training episodes
+	Average Rewards over all training: 142.08
+	Average Rewards for last 100 episodes: 159.82
+	Episode took 1.51 seconds
+Training Done (turning off epsilon and alpha)
+---------------------------------------------
+Output of training available in:  output_TrueOnlineSarsaAgent_smallGrid.csv
+>>>> RUN NO: 4 <<<<
+Beginning 2000 episodes of Training
+Reinforcement Learning Status:
+	Completed 100 out of 2000 training episodes
+	Average Rewards over all training: 28.69
+	Average Rewards for last 100 episodes: 28.69
+	Episode took 1.54 seconds
+Reinforcement Learning Status:
+	Completed 200 out of 2000 training episodes
+	Average Rewards over all training: 59.04
+	Average Rewards for last 100 episodes: 89.39
+	Episode took 1.52 seconds
+Reinforcement Learning Status:
+	Completed 300 out of 2000 training episodes
+	Average Rewards over all training: 95.99
+	Average Rewards for last 100 episodes: 169.89
+	Episode took 1.61 seconds
+Reinforcement Learning Status:
+	Completed 400 out of 2000 training episodes
+	Average Rewards over all training: 86.54
+	Average Rewards for last 100 episodes: 58.20
+	Episode took 1.59 seconds
+Reinforcement Learning Status:
+	Completed 500 out of 2000 training episodes
+	Average Rewards over all training: 87.17
+	Average Rewards for last 100 episodes: 89.66
+	Episode took 1.54 seconds
+Reinforcement Learning Status:
+	Completed 600 out of 2000 training episodes
+	Average Rewards over all training: 87.50
+	Average Rewards for last 100 episodes: 89.18
+	Episode took 1.61 seconds
+Reinforcement Learning Status:
+	Completed 700 out of 2000 training episodes
+	Average Rewards over all training: 87.70
+	Average Rewards for last 100 episodes: 88.92
+	Episode took 1.58 seconds
+Reinforcement Learning Status:
+	Completed 800 out of 2000 training episodes
+	Average Rewards over all training: 80.28
+	Average Rewards for last 100 episodes: 28.31
+	Episode took 1.55 seconds
+Reinforcement Learning Status:
+	Completed 900 out of 2000 training episodes
+	Average Rewards over all training: 86.86
+	Average Rewards for last 100 episodes: 139.51
+	Episode took 1.66 seconds
+Reinforcement Learning Status:
+	Completed 1000 out of 2000 training episodes
+	Average Rewards over all training: 93.18
+	Average Rewards for last 100 episodes: 150.06
+	Episode took 1.58 seconds
+Reinforcement Learning Status:
+	Completed 1100 out of 2000 training episodes
+	Average Rewards over all training: 99.20
+	Average Rewards for last 100 episodes: 159.39
+	Episode took 1.70 seconds
+Reinforcement Learning Status:
+	Completed 1200 out of 2000 training episodes
+	Average Rewards over all training: 100.89
+	Average Rewards for last 100 episodes: 119.47
+	Episode took 1.56 seconds
+Reinforcement Learning Status:
+	Completed 1300 out of 2000 training episodes
+	Average Rewards over all training: 106.18
+	Average Rewards for last 100 episodes: 169.73
+	Episode took 1.67 seconds
+Reinforcement Learning Status:
+	Completed 1400 out of 2000 training episodes
+	Average Rewards over all training: 111.37
+	Average Rewards for last 100 episodes: 178.75
+	Episode took 1.78 seconds
+Reinforcement Learning Status:
+	Completed 1500 out of 2000 training episodes
+	Average Rewards over all training: 113.97
+	Average Rewards for last 100 episodes: 150.34
+	Episode took 1.58 seconds
+Reinforcement Learning Status:
+	Completed 1600 out of 2000 training episodes
+	Average Rewards over all training: 119.98
+	Average Rewards for last 100 episodes: 210.21
+	Episode took 1.70 seconds
+Reinforcement Learning Status:
+	Completed 1700 out of 2000 training episodes
+	Average Rewards over all training: 121.12
+	Average Rewards for last 100 episodes: 139.36
+	Episode took 1.64 seconds
+Reinforcement Learning Status:
+	Completed 1800 out of 2000 training episodes
+	Average Rewards over all training: 121.04
+	Average Rewards for last 100 episodes: 119.64
+	Episode took 1.64 seconds
+Reinforcement Learning Status:
+	Completed 1900 out of 2000 training episodes
+	Average Rewards over all training: 119.38
+	Average Rewards for last 100 episodes: 89.51
+	Episode took 1.56 seconds
+Reinforcement Learning Status:
+	Completed 2000 out of 2000 training episodes
+	Average Rewards over all training: 121.40
+	Average Rewards for last 100 episodes: 159.88
+	Episode took 1.58 seconds
+Training Done (turning off epsilon and alpha)
+---------------------------------------------
+Output of training available in:  output_TrueOnlineSarsaAgent_smallGrid.csv
+>>>> RUN NO: 5 <<<<
+Beginning 2000 episodes of Training
+Reinforcement Learning Status:
+	Completed 100 out of 2000 training episodes
+	Average Rewards over all training: 159.29
+	Average Rewards for last 100 episodes: 159.29
+	Episode took 1.72 seconds
+Reinforcement Learning Status:
+	Completed 200 out of 2000 training episodes
+	Average Rewards over all training: 149.49
+	Average Rewards for last 100 episodes: 139.69
+	Episode took 1.63 seconds
+Reinforcement Learning Status:
+	Completed 300 out of 2000 training episodes
+	Average Rewards over all training: 132.76
+	Average Rewards for last 100 episodes: 99.31
+	Episode took 1.63 seconds
+Reinforcement Learning Status:
+	Completed 400 out of 2000 training episodes
+	Average Rewards over all training: 129.32
+	Average Rewards for last 100 episodes: 118.98
+	Episode took 1.66 seconds
+Reinforcement Learning Status:
+	Completed 500 out of 2000 training episodes
+	Average Rewards over all training: 129.38
+	Average Rewards for last 100 episodes: 129.63
+	Episode took 1.64 seconds
+Reinforcement Learning Status:
+	Completed 600 out of 2000 training episodes
+	Average Rewards over all training: 115.91
+	Average Rewards for last 100 episodes: 48.58
+	Episode took 1.64 seconds
+Reinforcement Learning Status:
+	Completed 700 out of 2000 training episodes
+	Average Rewards over all training: 129.32
+	Average Rewards for last 100 episodes: 209.78
+	Episode took 1.73 seconds
+Reinforcement Learning Status:
+	Completed 800 out of 2000 training episodes
+	Average Rewards over all training: 134.32
+	Average Rewards for last 100 episodes: 169.27
+	Episode took 1.74 seconds
+Reinforcement Learning Status:
+	Completed 900 out of 2000 training episodes
+	Average Rewards over all training: 132.70
+	Average Rewards for last 100 episodes: 119.76
+	Episode took 1.57 seconds
+Reinforcement Learning Status:
+	Completed 1000 out of 2000 training episodes
+	Average Rewards over all training: 135.47
+	Average Rewards for last 100 episodes: 160.38
+	Episode took 1.67 seconds
+Reinforcement Learning Status:
+	Completed 1100 out of 2000 training episodes
+	Average Rewards over all training: 137.63
+	Average Rewards for last 100 episodes: 159.31
+	Episode took 1.68 seconds
+Reinforcement Learning Status:
+	Completed 1200 out of 2000 training episodes
+	Average Rewards over all training: 139.40
+	Average Rewards for last 100 episodes: 158.80
+	Episode took 1.77 seconds
+Reinforcement Learning Status:
+	Completed 1300 out of 2000 training episodes
+	Average Rewards over all training: 144.13
+	Average Rewards for last 100 episodes: 200.90
+	Episode took 1.64 seconds
+Reinforcement Learning Status:
+	Completed 1400 out of 2000 training episodes
+	Average Rewards over all training: 139.46
+	Average Rewards for last 100 episodes: 78.82
+	Episode took 1.61 seconds
+Reinforcement Learning Status:
+	Completed 1500 out of 2000 training episodes
+	Average Rewards over all training: 137.46
+	Average Rewards for last 100 episodes: 109.41
+	Episode took 1.62 seconds
+Reinforcement Learning Status:
+	Completed 1600 out of 2000 training episodes
+	Average Rewards over all training: 140.74
+	Average Rewards for last 100 episodes: 190.00
+	Episode took 1.71 seconds
+Reinforcement Learning Status:
+	Completed 1700 out of 2000 training episodes
+	Average Rewards over all training: 141.25
+	Average Rewards for last 100 episodes: 149.40
+	Episode took 1.71 seconds
+Reinforcement Learning Status:
+	Completed 1800 out of 2000 training episodes
+	Average Rewards over all training: 140.59
+	Average Rewards for last 100 episodes: 129.39
+	Episode took 1.68 seconds
+Reinforcement Learning Status:
+	Completed 1900 out of 2000 training episodes
+	Average Rewards over all training: 140.53
+	Average Rewards for last 100 episodes: 139.29
+	Episode took 1.65 seconds
+Reinforcement Learning Status:
+	Completed 2000 out of 2000 training episodes
+	Average Rewards over all training: 136.89
+	Average Rewards for last 100 episodes: 67.83
+	Episode took 1.75 seconds
+Training Done (turning off epsilon and alpha)
+---------------------------------------------
+Output of training available in:  output_TrueOnlineSarsaAgent_smallGrid.csv
+>>>> RUN NO: 6 <<<<
+Beginning 2000 episodes of Training
+Reinforcement Learning Status:
+	Completed 100 out of 2000 training episodes
+	Average Rewards over all training: 199.65
+	Average Rewards for last 100 episodes: 199.65
+	Episode took 1.74 seconds
+Reinforcement Learning Status:
+	Completed 200 out of 2000 training episodes
+	Average Rewards over all training: 159.80
+	Average Rewards for last 100 episodes: 119.95
+	Episode took 1.61 seconds
+Reinforcement Learning Status:
+	Completed 300 out of 2000 training episodes
+	Average Rewards over all training: 149.69
+	Average Rewards for last 100 episodes: 129.47
+	Episode took 1.62 seconds
+Reinforcement Learning Status:
+	Completed 400 out of 2000 training episodes
+	Average Rewards over all training: 134.55
+	Average Rewards for last 100 episodes: 89.12
+	Episode took 1.62 seconds
+Reinforcement Learning Status:
+	Completed 500 out of 2000 training episodes
+	Average Rewards over all training: 143.59
+	Average Rewards for last 100 episodes: 179.76
+	Episode took 1.78 seconds
+Reinforcement Learning Status:
+	Completed 600 out of 2000 training episodes
+	Average Rewards over all training: 146.36
+	Average Rewards for last 100 episodes: 160.19
+	Episode took 1.76 seconds
+Reinforcement Learning Status:
+	Completed 700 out of 2000 training episodes
+	Average Rewards over all training: 152.55
+	Average Rewards for last 100 episodes: 189.68
+	Episode took 1.80 seconds
+Reinforcement Learning Status:
+	Completed 800 out of 2000 training episodes
+	Average Rewards over all training: 152.26
+	Average Rewards for last 100 episodes: 150.25
+	Episode took 1.58 seconds
+Reinforcement Learning Status:
+	Completed 900 out of 2000 training episodes
+	Average Rewards over all training: 150.86
+	Average Rewards for last 100 episodes: 139.66
+	Episode took 1.66 seconds
+Reinforcement Learning Status:
+	Completed 1000 out of 2000 training episodes
+	Average Rewards over all training: 151.79
+	Average Rewards for last 100 episodes: 160.22
+	Episode took 1.65 seconds
+Reinforcement Learning Status:
+	Completed 1100 out of 2000 training episodes
+	Average Rewards over all training: 157.98
+	Average Rewards for last 100 episodes: 219.83
+	Episode took 1.75 seconds
+Reinforcement Learning Status:
+	Completed 1200 out of 2000 training episodes
+	Average Rewards over all training: 153.08
+	Average Rewards for last 100 episodes: 99.21
+	Episode took 1.69 seconds
+Reinforcement Learning Status:
+	Completed 1300 out of 2000 training episodes
+	Average Rewards over all training: 152.05
+	Average Rewards for last 100 episodes: 139.72
+	Episode took 1.66 seconds
+Reinforcement Learning Status:
+	Completed 1400 out of 2000 training episodes
+	Average Rewards over all training: 144.66
+	Average Rewards for last 100 episodes: 48.56
+	Episode took 1.60 seconds
+Reinforcement Learning Status:
+	Completed 1500 out of 2000 training episodes
+	Average Rewards over all training: 140.30
+	Average Rewards for last 100 episodes: 79.20
+	Episode took 1.59 seconds
+Reinforcement Learning Status:
+	Completed 1600 out of 2000 training episodes
+	Average Rewards over all training: 140.88
+	Average Rewards for last 100 episodes: 149.66
+	Episode took 1.71 seconds
+Reinforcement Learning Status:
+	Completed 1700 out of 2000 training episodes
+	Average Rewards over all training: 140.86
+	Average Rewards for last 100 episodes: 140.42
+	Episode took 1.60 seconds
+Reinforcement Learning Status:
+	Completed 1800 out of 2000 training episodes
+	Average Rewards over all training: 143.00
+	Average Rewards for last 100 episodes: 179.38
+	Episode took 1.71 seconds
+Reinforcement Learning Status:
+	Completed 1900 out of 2000 training episodes
+	Average Rewards over all training: 143.93
+	Average Rewards for last 100 episodes: 160.65
+	Episode took 1.62 seconds
+Reinforcement Learning Status:
+	Completed 2000 out of 2000 training episodes
+	Average Rewards over all training: 146.70
+	Average Rewards for last 100 episodes: 199.49
+	Episode took 1.73 seconds
+Training Done (turning off epsilon and alpha)
+---------------------------------------------
+Output of training available in:  output_TrueOnlineSarsaAgent_smallGrid.csv
+>>>> RUN NO: 7 <<<<
+Beginning 2000 episodes of Training
+Reinforcement Learning Status:
+	Completed 100 out of 2000 training episodes
+	Average Rewards over all training: 241.01
+	Average Rewards for last 100 episodes: 241.01
+	Episode took 1.61 seconds
+Reinforcement Learning Status:
+	Completed 200 out of 2000 training episodes
+	Average Rewards over all training: 190.56
+	Average Rewards for last 100 episodes: 140.10
+	Episode took 1.59 seconds
+Reinforcement Learning Status:
+	Completed 300 out of 2000 training episodes
+	Average Rewards over all training: 169.95
+	Average Rewards for last 100 episodes: 128.75
+	Episode took 1.77 seconds
+Reinforcement Learning Status:
+	Completed 400 out of 2000 training episodes
+	Average Rewards over all training: 162.44
+	Average Rewards for last 100 episodes: 139.91
+	Episode took 1.62 seconds
+Reinforcement Learning Status:
+	Completed 500 out of 2000 training episodes
+	Average Rewards over all training: 155.92
+	Average Rewards for last 100 episodes: 129.84
+	Episode took 1.66 seconds
+Reinforcement Learning Status:
+	Completed 600 out of 2000 training episodes
+	Average Rewards over all training: 163.26
+	Average Rewards for last 100 episodes: 199.96
+	Episode took 1.79 seconds
+Reinforcement Learning Status:
+	Completed 700 out of 2000 training episodes
+	Average Rewards over all training: 154.11
+	Average Rewards for last 100 episodes: 99.20
+	Episode took 1.71 seconds
+Reinforcement Learning Status:
+	Completed 800 out of 2000 training episodes
+	Average Rewards over all training: 151.02
+	Average Rewards for last 100 episodes: 129.41
+	Episode took 1.61 seconds
+Reinforcement Learning Status:
+	Completed 900 out of 2000 training episodes
+	Average Rewards over all training: 146.39
+	Average Rewards for last 100 episodes: 109.31
+	Episode took 1.68 seconds
+Reinforcement Learning Status:
+	Completed 1000 out of 2000 training episodes
+	Average Rewards over all training: 148.79
+	Average Rewards for last 100 episodes: 170.40
+	Episode took 1.63 seconds
+Reinforcement Learning Status:
+	Completed 1100 out of 2000 training episodes
+	Average Rewards over all training: 148.88
+	Average Rewards for last 100 episodes: 149.74
+	Episode took 1.66 seconds
+Reinforcement Learning Status:
+	Completed 1200 out of 2000 training episodes
+	Average Rewards over all training: 148.87
+	Average Rewards for last 100 episodes: 148.78
+	Episode took 1.74 seconds
+Reinforcement Learning Status:
+	Completed 1300 out of 2000 training episodes
+	Average Rewards over all training: 152.84
+	Average Rewards for last 100 episodes: 200.57
+	Episode took 1.68 seconds
+Reinforcement Learning Status:
+	Completed 1400 out of 2000 training episodes
+	Average Rewards over all training: 155.51
+	Average Rewards for last 100 episodes: 190.21
+	Episode took 1.66 seconds
+Reinforcement Learning Status:
+	Completed 1500 out of 2000 training episodes
+	Average Rewards over all training: 158.52
+	Average Rewards for last 100 episodes: 200.68
+	Episode took 1.61 seconds
+Reinforcement Learning Status:
+	Completed 1600 out of 2000 training episodes
+	Average Rewards over all training: 157.32
+	Average Rewards for last 100 episodes: 139.32
+	Episode took 1.70 seconds
+Reinforcement Learning Status:
+	Completed 1700 out of 2000 training episodes
+	Average Rewards over all training: 159.28
+	Average Rewards for last 100 episodes: 190.50
+	Episode took 1.65 seconds
+Reinforcement Learning Status:
+	Completed 1800 out of 2000 training episodes
+	Average Rewards over all training: 154.77
+	Average Rewards for last 100 episodes: 78.23
+	Episode took 1.69 seconds
+Reinforcement Learning Status:
+	Completed 1900 out of 2000 training episodes
+	Average Rewards over all training: 151.85
+	Average Rewards for last 100 episodes: 99.29
+	Episode took 1.63 seconds
+Reinforcement Learning Status:
+	Completed 2000 out of 2000 training episodes
+	Average Rewards over all training: 148.23
+	Average Rewards for last 100 episodes: 79.31
+	Episode took 1.59 seconds
+Training Done (turning off epsilon and alpha)
+---------------------------------------------
+Output of training available in:  output_TrueOnlineSarsaAgent_smallGrid.csv
+>>>> RUN NO: 8 <<<<
+Beginning 2000 episodes of Training
+Reinforcement Learning Status:
+	Completed 100 out of 2000 training episodes
+	Average Rewards over all training: 169.52
+	Average Rewards for last 100 episodes: 169.52
+	Episode took 1.76 seconds
+Reinforcement Learning Status:
+	Completed 200 out of 2000 training episodes
+	Average Rewards over all training: 129.74
+	Average Rewards for last 100 episodes: 89.95
+	Episode took 1.57 seconds
+Reinforcement Learning Status:
+	Completed 300 out of 2000 training episodes
+	Average Rewards over all training: 99.31
+	Average Rewards for last 100 episodes: 38.47
+	Episode took 1.59 seconds
+Reinforcement Learning Status:
+	Completed 400 out of 2000 training episodes
+	Average Rewards over all training: 86.73
+	Average Rewards for last 100 episodes: 48.99
+	Episode took 1.59 seconds
+Reinforcement Learning Status:
+	Completed 500 out of 2000 training episodes
+	Average Rewards over all training: 111.42
+	Average Rewards for last 100 episodes: 210.16
+	Episode took 1.69 seconds
+Reinforcement Learning Status:
+	Completed 600 out of 2000 training episodes
+	Average Rewards over all training: 107.69
+	Average Rewards for last 100 episodes: 89.07
+	Episode took 1.66 seconds
+Reinforcement Learning Status:
+	Completed 700 out of 2000 training episodes
+	Average Rewards over all training: 112.21
+	Average Rewards for last 100 episodes: 139.28
+	Episode took 1.70 seconds
+Reinforcement Learning Status:
+	Completed 800 out of 2000 training episodes
+	Average Rewards over all training: 118.17
+	Average Rewards for last 100 episodes: 159.96
+	Episode took 1.59 seconds
+Reinforcement Learning Status:
+	Completed 900 out of 2000 training episodes
+	Average Rewards over all training: 121.61
+	Average Rewards for last 100 episodes: 149.10
+	Episode took 1.74 seconds
+Reinforcement Learning Status:
+	Completed 1000 out of 2000 training episodes
+	Average Rewards over all training: 125.48
+	Average Rewards for last 100 episodes: 160.29
+	Episode took 1.58 seconds
+Reinforcement Learning Status:
+	Completed 1100 out of 2000 training episodes
+	Average Rewards over all training: 130.47
+	Average Rewards for last 100 episodes: 180.36
+	Episode took 1.65 seconds
+Reinforcement Learning Status:
+	Completed 1200 out of 2000 training episodes
+	Average Rewards over all training: 132.09
+	Average Rewards for last 100 episodes: 149.98
+	Episode took 1.61 seconds
+Reinforcement Learning Status:
+	Completed 1300 out of 2000 training episodes
+	Average Rewards over all training: 127.98
+	Average Rewards for last 100 episodes: 78.62
+	Episode took 1.66 seconds
+Reinforcement Learning Status:
+	Completed 1400 out of 2000 training episodes
+	Average Rewards over all training: 131.71
+	Average Rewards for last 100 episodes: 180.16
+	Episode took 1.66 seconds
+Reinforcement Learning Status:
+	Completed 1500 out of 2000 training episodes
+	Average Rewards over all training: 135.61
+	Average Rewards for last 100 episodes: 190.31
+	Episode took 1.67 seconds
+Reinforcement Learning Status:
+	Completed 1600 out of 2000 training episodes
+	Average Rewards over all training: 132.08
+	Average Rewards for last 100 episodes: 79.00
+	Episode took 1.64 seconds
+Reinforcement Learning Status:
+	Completed 1700 out of 2000 training episodes
+	Average Rewards over all training: 130.73
+	Average Rewards for last 100 episodes: 109.22
+	Episode took 1.66 seconds
+Reinforcement Learning Status:
+	Completed 1800 out of 2000 training episodes
+	Average Rewards over all training: 133.98
+	Average Rewards for last 100 episodes: 189.28
+	Episode took 1.78 seconds
+Reinforcement Learning Status:
+	Completed 1900 out of 2000 training episodes
+	Average Rewards over all training: 132.16
+	Average Rewards for last 100 episodes: 99.35
+	Episode took 1.57 seconds
+Reinforcement Learning Status:
+	Completed 2000 out of 2000 training episodes
+	Average Rewards over all training: 132.02
+	Average Rewards for last 100 episodes: 129.38
+	Episode took 1.71 seconds
+Training Done (turning off epsilon and alpha)
+---------------------------------------------
+Output of training available in:  output_TrueOnlineSarsaAgent_smallGrid.csv
+>>>> RUN NO: 9 <<<<
+Beginning 2000 episodes of Training
+Reinforcement Learning Status:
+	Completed 100 out of 2000 training episodes
+	Average Rewards over all training: 140.30
+	Average Rewards for last 100 episodes: 140.30
+	Episode took 1.61 seconds
+Reinforcement Learning Status:
+	Completed 200 out of 2000 training episodes
+	Average Rewards over all training: 114.86
+	Average Rewards for last 100 episodes: 89.41
+	Episode took 1.64 seconds
+Reinforcement Learning Status:
+	Completed 300 out of 2000 training episodes
+	Average Rewards over all training: 133.28
+	Average Rewards for last 100 episodes: 170.13
+	Episode took 1.74 seconds
+Reinforcement Learning Status:
+	Completed 400 out of 2000 training episodes
+	Average Rewards over all training: 150.06
+	Average Rewards for last 100 episodes: 200.42
+	Episode took 1.74 seconds
+Reinforcement Learning Status:
+	Completed 500 out of 2000 training episodes
+	Average Rewards over all training: 139.81
+	Average Rewards for last 100 episodes: 98.80
+	Episode took 1.66 seconds
+Reinforcement Learning Status:
+	Completed 600 out of 2000 training episodes
+	Average Rewards over all training: 136.35
+	Average Rewards for last 100 episodes: 119.05
+	Episode took 1.72 seconds
+Reinforcement Learning Status:
+	Completed 700 out of 2000 training episodes
+	Average Rewards over all training: 129.69
+	Average Rewards for last 100 episodes: 89.71
+	Episode took 1.56 seconds
+Reinforcement Learning Status:
+	Completed 800 out of 2000 training episodes
+	Average Rewards over all training: 137.23
+	Average Rewards for last 100 episodes: 190.01
+	Episode took 1.69 seconds
+Reinforcement Learning Status:
+	Completed 900 out of 2000 training episodes
+	Average Rewards over all training: 135.26
+	Average Rewards for last 100 episodes: 119.47
+	Episode took 1.68 seconds
+Reinforcement Learning Status:
+	Completed 1000 out of 2000 training episodes
+	Average Rewards over all training: 130.67
+	Average Rewards for last 100 episodes: 89.41
+	Episode took 1.59 seconds
+Reinforcement Learning Status:
+	Completed 1100 out of 2000 training episodes
+	Average Rewards over all training: 131.47
+	Average Rewards for last 100 episodes: 139.45
+	Episode took 1.69 seconds
+Reinforcement Learning Status:
+	Completed 1200 out of 2000 training episodes
+	Average Rewards over all training: 141.41
+	Average Rewards for last 100 episodes: 250.80
+	Episode took 1.74 seconds
+Reinforcement Learning Status:
+	Completed 1300 out of 2000 training episodes
+	Average Rewards over all training: 137.37
+	Average Rewards for last 100 episodes: 88.91
+	Episode took 1.62 seconds
+Reinforcement Learning Status:
+	Completed 1400 out of 2000 training episodes
+	Average Rewards over all training: 141.15
+	Average Rewards for last 100 episodes: 190.17
+	Episode took 1.69 seconds
+Reinforcement Learning Status:
+	Completed 1500 out of 2000 training episodes
+	Average Rewards over all training: 143.11
+	Average Rewards for last 100 episodes: 170.68
+	Episode took 1.61 seconds
+Reinforcement Learning Status:
+	Completed 1600 out of 2000 training episodes
+	Average Rewards over all training: 149.14
+	Average Rewards for last 100 episodes: 239.57
+	Episode took 1.79 seconds
+Reinforcement Learning Status:
+	Completed 1700 out of 2000 training episodes
+	Average Rewards over all training: 146.17
+	Average Rewards for last 100 episodes: 98.65
+	Episode took 1.75 seconds
+Reinforcement Learning Status:
+	Completed 1800 out of 2000 training episodes
+	Average Rewards over all training: 143.05
+	Average Rewards for last 100 episodes: 89.97
+	Episode took 1.54 seconds
+Reinforcement Learning Status:
+	Completed 1900 out of 2000 training episodes
+	Average Rewards over all training: 135.98
+	Average Rewards for last 100 episodes: 8.68
+	Episode took 1.62 seconds
+Reinforcement Learning Status:
+	Completed 2000 out of 2000 training episodes
+	Average Rewards over all training: 132.65
+	Average Rewards for last 100 episodes: 69.43
+	Episode took 1.59 seconds
+Training Done (turning off epsilon and alpha)
+---------------------------------------------
+Output of training available in:  output_TrueOnlineSarsaAgent_smallGrid.csv
+>>>> RUN NO: 10 <<<<
+Beginning 2000 episodes of Training
+Reinforcement Learning Status:
+	Completed 100 out of 2000 training episodes
+	Average Rewards over all training: 39.28
+	Average Rewards for last 100 episodes: 39.28
+	Episode took 1.48 seconds
+Reinforcement Learning Status:
+	Completed 200 out of 2000 training episodes
+	Average Rewards over all training: 99.50
+	Average Rewards for last 100 episodes: 159.71
+	Episode took 1.70 seconds
+Reinforcement Learning Status:
+	Completed 300 out of 2000 training episodes
+	Average Rewards over all training: 99.55
+	Average Rewards for last 100 episodes: 99.65
+	Episode took 1.53 seconds
+Reinforcement Learning Status:
+	Completed 400 out of 2000 training episodes
+	Average Rewards over all training: 104.40
+	Average Rewards for last 100 episodes: 118.95
+	Episode took 1.68 seconds
+Reinforcement Learning Status:
+	Completed 500 out of 2000 training episodes
+	Average Rewards over all training: 111.46
+	Average Rewards for last 100 episodes: 139.71
+	Episode took 1.71 seconds
+Reinforcement Learning Status:
+	Completed 600 out of 2000 training episodes
+	Average Rewards over all training: 112.86
+	Average Rewards for last 100 episodes: 119.87
+	Episode took 1.58 seconds
+Reinforcement Learning Status:
+	Completed 700 out of 2000 training episodes
+	Average Rewards over all training: 118.16
+	Average Rewards for last 100 episodes: 149.97
+	Episode took 1.70 seconds
+Reinforcement Learning Status:
+	Completed 800 out of 2000 training episodes
+	Average Rewards over all training: 107.06
+	Average Rewards for last 100 episodes: 29.36
+	Episode took 1.52 seconds
+Reinforcement Learning Status:
+	Completed 900 out of 2000 training episodes
+	Average Rewards over all training: 105.04
+	Average Rewards for last 100 episodes: 88.85
+	Episode took 1.62 seconds
+Reinforcement Learning Status:
+	Completed 1000 out of 2000 training episodes
+	Average Rewards over all training: 116.53
+	Average Rewards for last 100 episodes: 219.99
+	Episode took 1.75 seconds
+Reinforcement Learning Status:
+	Completed 1100 out of 2000 training episodes
+	Average Rewards over all training: 111.23
+	Average Rewards for last 100 episodes: 58.23
+	Episode took 1.73 seconds
+Reinforcement Learning Status:
+	Completed 1200 out of 2000 training episodes
+	Average Rewards over all training: 106.92
+	Average Rewards for last 100 episodes: 59.49
+	Episode took 1.64 seconds
+Reinforcement Learning Status:
+	Completed 1300 out of 2000 training episodes
+	Average Rewards over all training: 102.40
+	Average Rewards for last 100 episodes: 48.10
+	Episode took 1.70 seconds
+Reinforcement Learning Status:
+	Completed 1400 out of 2000 training episodes
+	Average Rewards over all training: 98.58
+	Average Rewards for last 100 episodes: 48.98
+	Episode took 1.61 seconds
+Reinforcement Learning Status:
+	Completed 1500 out of 2000 training episodes
+	Average Rewards over all training: 100.68
+	Average Rewards for last 100 episodes: 130.02
+	Episode took 1.58 seconds
+Reinforcement Learning Status:
+	Completed 1600 out of 2000 training episodes
+	Average Rewards over all training: 99.96
+	Average Rewards for last 100 episodes: 89.17
+	Episode took 1.65 seconds
+Reinforcement Learning Status:
+	Completed 1700 out of 2000 training episodes
+	Average Rewards over all training: 99.94
+	Average Rewards for last 100 episodes: 99.60
+	Episode took 1.60 seconds
+Reinforcement Learning Status:
+	Completed 1800 out of 2000 training episodes
+	Average Rewards over all training: 102.71
+	Average Rewards for last 100 episodes: 149.87
+	Episode took 1.63 seconds
+Reinforcement Learning Status:
+	Completed 1900 out of 2000 training episodes
+	Average Rewards over all training: 102.54
+	Average Rewards for last 100 episodes: 99.55
+	Episode took 1.63 seconds
+Reinforcement Learning Status:
+	Completed 2000 out of 2000 training episodes
+	Average Rewards over all training: 101.37
+	Average Rewards for last 100 episodes: 79.05
+	Episode took 1.68 seconds
+Training Done (turning off epsilon and alpha)
+---------------------------------------------
+Output of training available in:  output_TrueOnlineSarsaAgent_smallGrid.csv
+>>>> RUN NO: 11 <<<<
+Beginning 2000 episodes of Training
+Reinforcement Learning Status:
+	Completed 100 out of 2000 training episodes
+	Average Rewards over all training: 89.11
+	Average Rewards for last 100 episodes: 89.11
+	Episode took 1.62 seconds
+Reinforcement Learning Status:
+	Completed 200 out of 2000 training episodes
+	Average Rewards over all training: 89.03
+	Average Rewards for last 100 episodes: 88.94
+	Episode took 1.66 seconds
+Reinforcement Learning Status:
+	Completed 300 out of 2000 training episodes
+	Average Rewards over all training: 68.81
+	Average Rewards for last 100 episodes: 28.37
+	Episode took 1.67 seconds
+Reinforcement Learning Status:
+	Completed 400 out of 2000 training episodes
+	Average Rewards over all training: 94.04
+	Average Rewards for last 100 episodes: 169.75
+	Episode took 1.69 seconds
+Reinforcement Learning Status:
+	Completed 500 out of 2000 training episodes
+	Average Rewards over all training: 109.23
+	Average Rewards for last 100 episodes: 169.96
+	Episode took 1.65 seconds
+Reinforcement Learning Status:
+	Completed 600 out of 2000 training episodes
+	Average Rewards over all training: 112.50
+	Average Rewards for last 100 episodes: 128.90
+	Episode took 1.72 seconds
+Reinforcement Learning Status:
+	Completed 700 out of 2000 training episodes
+	Average Rewards over all training: 120.73
+	Average Rewards for last 100 episodes: 170.10
+	Episode took 1.67 seconds
+Reinforcement Learning Status:
+	Completed 800 out of 2000 training episodes
+	Average Rewards over all training: 109.21
+	Average Rewards for last 100 episodes: 28.57
+	Episode took 1.64 seconds
+Reinforcement Learning Status:
+	Completed 900 out of 2000 training episodes
+	Average Rewards over all training: 112.64
+	Average Rewards for last 100 episodes: 140.02
+	Episode took 1.65 seconds
+Reinforcement Learning Status:
+	Completed 1000 out of 2000 training episodes
+	Average Rewards over all training: 127.37
+	Average Rewards for last 100 episodes: 259.98
+	Episode took 1.82 seconds
+Reinforcement Learning Status:
+	Completed 1100 out of 2000 training episodes
+	Average Rewards over all training: 126.68
+	Average Rewards for last 100 episodes: 119.78
+	Episode took 1.66 seconds
+Reinforcement Learning Status:
+	Completed 1200 out of 2000 training episodes
+	Average Rewards over all training: 131.94
+	Average Rewards for last 100 episodes: 189.77
+	Episode took 1.77 seconds
+Reinforcement Learning Status:
+	Completed 1300 out of 2000 training episodes
+	Average Rewards over all training: 129.39
+	Average Rewards for last 100 episodes: 98.78
+	Episode took 1.73 seconds
+Reinforcement Learning Status:
+	Completed 1400 out of 2000 training episodes
+	Average Rewards over all training: 129.41
+	Average Rewards for last 100 episodes: 129.68
+	Episode took 1.71 seconds
+Reinforcement Learning Status:
+	Completed 1500 out of 2000 training episodes
+	Average Rewards over all training: 129.48
+	Average Rewards for last 100 episodes: 130.46
+	Episode took 1.55 seconds
+Reinforcement Learning Status:
+	Completed 1600 out of 2000 training episodes
+	Average Rewards over all training: 133.29
+	Average Rewards for last 100 episodes: 190.46
+	Episode took 1.66 seconds
+Reinforcement Learning Status:
+	Completed 1700 out of 2000 training episodes
+	Average Rewards over all training: 133.04
+	Average Rewards for last 100 episodes: 129.13
+	Episode took 1.72 seconds
+Reinforcement Learning Status:
+	Completed 1800 out of 2000 training episodes
+	Average Rewards over all training: 135.08
+	Average Rewards for last 100 episodes: 169.73
+	Episode took 1.72 seconds
+Reinforcement Learning Status:
+	Completed 1900 out of 2000 training episodes
+	Average Rewards over all training: 134.79
+	Average Rewards for last 100 episodes: 129.44
+	Episode took 1.60 seconds
+Reinforcement Learning Status:
+	Completed 2000 out of 2000 training episodes
+	Average Rewards over all training: 132.99
+	Average Rewards for last 100 episodes: 98.92
+	Episode took 1.73 seconds
+Training Done (turning off epsilon and alpha)
+---------------------------------------------
+Output of training available in:  output_TrueOnlineSarsaAgent_smallGrid.csv
+>>>> RUN NO: 12 <<<<
+Beginning 2000 episodes of Training
+Reinforcement Learning Status:
+	Completed 100 out of 2000 training episodes
+	Average Rewards over all training: 119.56
+	Average Rewards for last 100 episodes: 119.56
+	Episode took 1.57 seconds
+Reinforcement Learning Status:
+	Completed 200 out of 2000 training episodes
+	Average Rewards over all training: 119.53
+	Average Rewards for last 100 episodes: 119.50
+	Episode took 1.73 seconds
+Reinforcement Learning Status:
+	Completed 300 out of 2000 training episodes
+	Average Rewards over all training: 112.82
+	Average Rewards for last 100 episodes: 99.41
+	Episode took 1.61 seconds
+Reinforcement Learning Status:
+	Completed 400 out of 2000 training episodes
+	Average Rewards over all training: 127.14
+	Average Rewards for last 100 episodes: 170.10
+	Episode took 1.69 seconds
+Reinforcement Learning Status:
+	Completed 500 out of 2000 training episodes
+	Average Rewards over all training: 127.69
+	Average Rewards for last 100 episodes: 129.87
+	Episode took 1.67 seconds
+Reinforcement Learning Status:
+	Completed 600 out of 2000 training episodes
+	Average Rewards over all training: 133.01
+	Average Rewards for last 100 episodes: 159.63
+	Episode took 1.66 seconds
+Reinforcement Learning Status:
+	Completed 700 out of 2000 training episodes
+	Average Rewards over all training: 123.85
+	Average Rewards for last 100 episodes: 68.90
+	Episode took 1.67 seconds
+Reinforcement Learning Status:
+	Completed 800 out of 2000 training episodes
+	Average Rewards over all training: 128.39
+	Average Rewards for last 100 episodes: 160.12
+	Episode took 1.72 seconds
+Reinforcement Learning Status:
+	Completed 900 out of 2000 training episodes
+	Average Rewards over all training: 130.82
+	Average Rewards for last 100 episodes: 150.27
+	Episode took 1.66 seconds
+Reinforcement Learning Status:
+	Completed 1000 out of 2000 training episodes
+	Average Rewards over all training: 130.55
+	Average Rewards for last 100 episodes: 128.16
+	Episode took 1.79 seconds
+Reinforcement Learning Status:
+	Completed 1100 out of 2000 training episodes
+	Average Rewards over all training: 128.64
+	Average Rewards for last 100 episodes: 109.48
+	Episode took 1.64 seconds
+Reinforcement Learning Status:
+	Completed 1200 out of 2000 training episodes
+	Average Rewards over all training: 128.68
+	Average Rewards for last 100 episodes: 129.14
+	Episode took 1.70 seconds
+Reinforcement Learning Status:
+	Completed 1300 out of 2000 training episodes
+	Average Rewards over all training: 127.94
+	Average Rewards for last 100 episodes: 119.06
+	Episode took 1.74 seconds
+Reinforcement Learning Status:
+	Completed 1400 out of 2000 training episodes
+	Average Rewards over all training: 130.93
+	Average Rewards for last 100 episodes: 169.77
+	Episode took 1.73 seconds
+Reinforcement Learning Status:
+	Completed 1500 out of 2000 training episodes
+	Average Rewards over all training: 132.25
+	Average Rewards for last 100 episodes: 150.79
+	Episode took 1.63 seconds
+Reinforcement Learning Status:
+	Completed 1600 out of 2000 training episodes
+	Average Rewards over all training: 135.23
+	Average Rewards for last 100 episodes: 179.87
+	Episode took 1.66 seconds
+Reinforcement Learning Status:
+	Completed 1700 out of 2000 training episodes
+	Average Rewards over all training: 135.52
+	Average Rewards for last 100 episodes: 140.20
+	Episode took 1.68 seconds
+Reinforcement Learning Status:
+	Completed 1800 out of 2000 training episodes
+	Average Rewards over all training: 137.43
+	Average Rewards for last 100 episodes: 169.87
+	Episode took 1.76 seconds
+Reinforcement Learning Status:
+	Completed 1900 out of 2000 training episodes
+	Average Rewards over all training: 139.71
+	Average Rewards for last 100 episodes: 180.84
+	Episode took 1.60 seconds
+Reinforcement Learning Status:
+	Completed 2000 out of 2000 training episodes
+	Average Rewards over all training: 142.73
+	Average Rewards for last 100 episodes: 200.15
+	Episode took 1.69 seconds
+Training Done (turning off epsilon and alpha)
+---------------------------------------------
+Output of training available in:  output_TrueOnlineSarsaAgent_smallGrid.csv
+>>>> RUN NO: 13 <<<<
+Beginning 2000 episodes of Training
+Reinforcement Learning Status:
+	Completed 100 out of 2000 training episodes
+	Average Rewards over all training: 139.57
+	Average Rewards for last 100 episodes: 139.57
+	Episode took 1.68 seconds
+Reinforcement Learning Status:
+	Completed 200 out of 2000 training episodes
+	Average Rewards over all training: 119.17
+	Average Rewards for last 100 episodes: 98.78
+	Episode took 1.75 seconds
+Reinforcement Learning Status:
+	Completed 300 out of 2000 training episodes
+	Average Rewards over all training: 122.51
+	Average Rewards for last 100 episodes: 129.19
+	Episode took 1.71 seconds
+Reinforcement Learning Status:
+	Completed 400 out of 2000 training episodes
+	Average Rewards over all training: 116.54
+	Average Rewards for last 100 episodes: 98.61
+	Episode took 1.83 seconds
+Reinforcement Learning Status:
+	Completed 500 out of 2000 training episodes
+	Average Rewards over all training: 125.07
+	Average Rewards for last 100 episodes: 159.19
+	Episode took 1.78 seconds
+Reinforcement Learning Status:
+	Completed 600 out of 2000 training episodes
+	Average Rewards over all training: 132.61
+	Average Rewards for last 100 episodes: 170.30
+	Episode took 1.67 seconds
+Reinforcement Learning Status:
+	Completed 700 out of 2000 training episodes
+	Average Rewards over all training: 130.81
+	Average Rewards for last 100 episodes: 120.02
+	Episode took 1.68 seconds
+Reinforcement Learning Status:
+	Completed 800 out of 2000 training episodes
+	Average Rewards over all training: 134.44
+	Average Rewards for last 100 episodes: 159.82
+	Episode took 1.73 seconds
+Reinforcement Learning Status:
+	Completed 900 out of 2000 training episodes
+	Average Rewards over all training: 128.27
+	Average Rewards for last 100 episodes: 78.91
+	Episode took 1.70 seconds
+Reinforcement Learning Status:
+	Completed 1000 out of 2000 training episodes
+	Average Rewards over all training: 135.40
+	Average Rewards for last 100 episodes: 199.57
+	Episode took 1.79 seconds
+Reinforcement Learning Status:
+	Completed 1100 out of 2000 training episodes
+	Average Rewards over all training: 132.93
+	Average Rewards for last 100 episodes: 108.29
+	Episode took 1.73 seconds
+Reinforcement Learning Status:
+	Completed 1200 out of 2000 training episodes
+	Average Rewards over all training: 129.26
+	Average Rewards for last 100 episodes: 88.84
+	Episode took 1.69 seconds
+Reinforcement Learning Status:
+	Completed 1300 out of 2000 training episodes
+	Average Rewards over all training: 126.17
+	Average Rewards for last 100 episodes: 89.06
+	Episode took 1.68 seconds
+Reinforcement Learning Status:
+	Completed 1400 out of 2000 training episodes
+	Average Rewards over all training: 121.37
+	Average Rewards for last 100 episodes: 59.03
+	Episode took 1.65 seconds
+Reinforcement Learning Status:
+	Completed 1500 out of 2000 training episodes
+	Average Rewards over all training: 123.90
+	Average Rewards for last 100 episodes: 159.36
+	Episode took 1.72 seconds
+Reinforcement Learning Status:
+	Completed 1600 out of 2000 training episodes
+	Average Rewards over all training: 125.50
+	Average Rewards for last 100 episodes: 149.45
+	Episode took 1.77 seconds
+Reinforcement Learning Status:
+	Completed 1700 out of 2000 training episodes
+	Average Rewards over all training: 128.70
+	Average Rewards for last 100 episodes: 179.94
+	Episode took 1.69 seconds
+Reinforcement Learning Status:
+	Completed 1800 out of 2000 training episodes
+	Average Rewards over all training: 130.43
+	Average Rewards for last 100 episodes: 159.78
+	Episode took 1.78 seconds
+Reinforcement Learning Status:
+	Completed 1900 out of 2000 training episodes
+	Average Rewards over all training: 133.56
+	Average Rewards for last 100 episodes: 189.91
+	Episode took 1.70 seconds
+Reinforcement Learning Status:
+	Completed 2000 out of 2000 training episodes
+	Average Rewards over all training: 133.34
+	Average Rewards for last 100 episodes: 129.10
+	Episode took 1.72 seconds
+Training Done (turning off epsilon and alpha)
+---------------------------------------------
+Output of training available in:  output_TrueOnlineSarsaAgent_smallGrid.csv
+>>>> RUN NO: 14 <<<<
+Beginning 2000 episodes of Training
+Reinforcement Learning Status:
+	Completed 100 out of 2000 training episodes
+	Average Rewards over all training: 159.88
+	Average Rewards for last 100 episodes: 159.88
+	Episode took 1.69 seconds
+Reinforcement Learning Status:
+	Completed 200 out of 2000 training episodes
+	Average Rewards over all training: 114.58
+	Average Rewards for last 100 episodes: 69.29
+	Episode took 1.68 seconds
+Reinforcement Learning Status:
+	Completed 300 out of 2000 training episodes
+	Average Rewards over all training: 99.38
+	Average Rewards for last 100 episodes: 68.96
+	Episode took 1.70 seconds
+Reinforcement Learning Status:
+	Completed 400 out of 2000 training episodes
+	Average Rewards over all training: 89.33
+	Average Rewards for last 100 episodes: 59.21
+	Episode took 1.68 seconds
+Reinforcement Learning Status:
+	Completed 500 out of 2000 training episodes
+	Average Rewards over all training: 115.63
+	Average Rewards for last 100 episodes: 220.83
+	Episode took 1.77 seconds
+Reinforcement Learning Status:
+	Completed 600 out of 2000 training episodes
+	Average Rewards over all training: 117.97
+	Average Rewards for last 100 episodes: 129.66
+	Episode took 1.64 seconds
+Reinforcement Learning Status:
+	Completed 700 out of 2000 training episodes
+	Average Rewards over all training: 112.47
+	Average Rewards for last 100 episodes: 79.48
+	Episode took 1.55 seconds
+Reinforcement Learning Status:
+	Completed 800 out of 2000 training episodes
+	Average Rewards over all training: 114.44
+	Average Rewards for last 100 episodes: 128.24
+	Episode took 1.77 seconds
+Reinforcement Learning Status:
+	Completed 900 out of 2000 training episodes
+	Average Rewards over all training: 109.34
+	Average Rewards for last 100 episodes: 68.48
+	Episode took 1.72 seconds
+Reinforcement Learning Status:
+	Completed 1000 out of 2000 training episodes
+	Average Rewards over all training: 115.40
+	Average Rewards for last 100 episodes: 170.00
+	Episode took 1.72 seconds
+Reinforcement Learning Status:
+	Completed 1100 out of 2000 training episodes
+	Average Rewards over all training: 111.19
+	Average Rewards for last 100 episodes: 69.02
+	Episode took 1.73 seconds
+Reinforcement Learning Status:
+	Completed 1200 out of 2000 training episodes
+	Average Rewards over all training: 114.41
+	Average Rewards for last 100 episodes: 149.92
+	Episode took 1.69 seconds
+Reinforcement Learning Status:
+	Completed 1300 out of 2000 training episodes
+	Average Rewards over all training: 112.46
+	Average Rewards for last 100 episodes: 89.06
+	Episode took 1.67 seconds
+Reinforcement Learning Status:
+	Completed 1400 out of 2000 training episodes
+	Average Rewards over all training: 112.28
+	Average Rewards for last 100 episodes: 109.87
+	Episode took 1.67 seconds
+Reinforcement Learning Status:
+	Completed 1500 out of 2000 training episodes
+	Average Rewards over all training: 115.44
+	Average Rewards for last 100 episodes: 159.73
+	Episode took 1.72 seconds
+Reinforcement Learning Status:
+	Completed 1600 out of 2000 training episodes
+	Average Rewards over all training: 118.83
+	Average Rewards for last 100 episodes: 169.62
+	Episode took 1.75 seconds
+Reinforcement Learning Status:
+	Completed 1700 out of 2000 training episodes
+	Average Rewards over all training: 121.22
+	Average Rewards for last 100 episodes: 159.53
+	Episode took 1.80 seconds
+Reinforcement Learning Status:
+	Completed 1800 out of 2000 training episodes
+	Average Rewards over all training: 123.34
+	Average Rewards for last 100 episodes: 159.38
+	Episode took 1.73 seconds
+Reinforcement Learning Status:
+	Completed 1900 out of 2000 training episodes
+	Average Rewards over all training: 122.59
+	Average Rewards for last 100 episodes: 109.06
+	Episode took 1.77 seconds
+Reinforcement Learning Status:
+	Completed 2000 out of 2000 training episodes
+	Average Rewards over all training: 119.90
+	Average Rewards for last 100 episodes: 68.76
+	Episode took 1.67 seconds
+Training Done (turning off epsilon and alpha)
+---------------------------------------------
+Output of training available in:  output_TrueOnlineSarsaAgent_smallGrid.csv
+>>>> RUN NO: 15 <<<<
+Beginning 2000 episodes of Training
+Reinforcement Learning Status:
+	Completed 100 out of 2000 training episodes
+	Average Rewards over all training: 139.73
+	Average Rewards for last 100 episodes: 139.73
+	Episode took 1.69 seconds
+Reinforcement Learning Status:
+	Completed 200 out of 2000 training episodes
+	Average Rewards over all training: 139.72
+	Average Rewards for last 100 episodes: 139.71
+	Episode took 1.73 seconds
+Reinforcement Learning Status:
+	Completed 300 out of 2000 training episodes
+	Average Rewards over all training: 152.95
+	Average Rewards for last 100 episodes: 179.41
+	Episode took 1.87 seconds
+Reinforcement Learning Status:
+	Completed 400 out of 2000 training episodes
+	Average Rewards over all training: 139.50
+	Average Rewards for last 100 episodes: 99.17
+	Episode took 1.70 seconds
+Reinforcement Learning Status:
+	Completed 500 out of 2000 training episodes
+	Average Rewards over all training: 141.52
+	Average Rewards for last 100 episodes: 149.60
+	Episode took 1.68 seconds
+Reinforcement Learning Status:
+	Completed 600 out of 2000 training episodes
+	Average Rewards over all training: 127.79
+	Average Rewards for last 100 episodes: 59.14
+	Episode took 1.64 seconds
+Reinforcement Learning Status:
+	Completed 700 out of 2000 training episodes
+	Average Rewards over all training: 123.74
+	Average Rewards for last 100 episodes: 99.45
+	Episode took 1.65 seconds
+Reinforcement Learning Status:
+	Completed 800 out of 2000 training episodes
+	Average Rewards over all training: 121.95
+	Average Rewards for last 100 episodes: 109.43
+	Episode took 1.70 seconds
+Reinforcement Learning Status:
+	Completed 900 out of 2000 training episodes
+	Average Rewards over all training: 122.74
+	Average Rewards for last 100 episodes: 129.02
+	Episode took 1.76 seconds
+Reinforcement Learning Status:
+	Completed 1000 out of 2000 training episodes
+	Average Rewards over all training: 131.48
+	Average Rewards for last 100 episodes: 210.13
+	Episode took 1.77 seconds
+Reinforcement Learning Status:
+	Completed 1100 out of 2000 training episodes
+	Average Rewards over all training: 131.31
+	Average Rewards for last 100 episodes: 129.62
+	Episode took 1.67 seconds
+Reinforcement Learning Status:
+	Completed 1200 out of 2000 training episodes
+	Average Rewards over all training: 126.09
+	Average Rewards for last 100 episodes: 68.65
+	Episode took 1.74 seconds
+Reinforcement Learning Status:
+	Completed 1300 out of 2000 training episodes
+	Average Rewards over all training: 127.88
+	Average Rewards for last 100 episodes: 149.36
+	Episode took 1.79 seconds
+Reinforcement Learning Status:
+	Completed 1400 out of 2000 training episodes
+	Average Rewards over all training: 132.31
+	Average Rewards for last 100 episodes: 189.99
+	Episode took 1.78 seconds
+Reinforcement Learning Status:
+	Completed 1500 out of 2000 training episodes
+	Average Rewards over all training: 128.09
+	Average Rewards for last 100 episodes: 68.94
+	Episode took 1.66 seconds
+Reinforcement Learning Status:
+	Completed 1600 out of 2000 training episodes
+	Average Rewards over all training: 126.93
+	Average Rewards for last 100 episodes: 109.50
+	Episode took 1.67 seconds
+Reinforcement Learning Status:
+	Completed 1700 out of 2000 training episodes
+	Average Rewards over all training: 131.21
+	Average Rewards for last 100 episodes: 199.74
+	Episode took 1.76 seconds
+Reinforcement Learning Status:
+	Completed 1800 out of 2000 training episodes
+	Average Rewards over all training: 133.92
+	Average Rewards for last 100 episodes: 179.95
+	Episode took 1.69 seconds
+Reinforcement Learning Status:
+	Completed 1900 out of 2000 training episodes
+	Average Rewards over all training: 140.08
+	Average Rewards for last 100 episodes: 250.90
+	Episode took 1.74 seconds
+Reinforcement Learning Status:
+	Completed 2000 out of 2000 training episodes
+	Average Rewards over all training: 137.55
+	Average Rewards for last 100 episodes: 89.58
+	Episode took 1.59 seconds
+Training Done (turning off epsilon and alpha)
+---------------------------------------------
+Output of training available in:  output_TrueOnlineSarsaAgent_smallGrid.csv
+>>>> RUN NO: 16 <<<<
+Beginning 2000 episodes of Training
+Reinforcement Learning Status:
+	Completed 100 out of 2000 training episodes
+	Average Rewards over all training: 119.63
+	Average Rewards for last 100 episodes: 119.63
+	Episode took 1.67 seconds
+Reinforcement Learning Status:
+	Completed 200 out of 2000 training episodes
+	Average Rewards over all training: 144.53
+	Average Rewards for last 100 episodes: 169.42
+	Episode took 1.76 seconds
+Reinforcement Learning Status:
+	Completed 300 out of 2000 training episodes
+	Average Rewards over all training: 163.27
+	Average Rewards for last 100 episodes: 200.76
+	Episode took 1.63 seconds
+Reinforcement Learning Status:
+	Completed 400 out of 2000 training episodes
+	Average Rewards over all training: 172.45
+	Average Rewards for last 100 episodes: 199.99
+	Episode took 1.80 seconds
+Reinforcement Learning Status:
+	Completed 500 out of 2000 training episodes
+	Average Rewards over all training: 173.85
+	Average Rewards for last 100 episodes: 179.47
+	Episode took 1.76 seconds
+Reinforcement Learning Status:
+	Completed 600 out of 2000 training episodes
+	Average Rewards over all training: 161.41
+	Average Rewards for last 100 episodes: 99.21
+	Episode took 1.72 seconds
+Reinforcement Learning Status:
+	Completed 700 out of 2000 training episodes
+	Average Rewards over all training: 161.13
+	Average Rewards for last 100 episodes: 159.43
+	Episode took 1.74 seconds
+Reinforcement Learning Status:
+	Completed 800 out of 2000 training episodes
+	Average Rewards over all training: 167.24
+	Average Rewards for last 100 episodes: 210.04
+	Episode took 1.74 seconds
+Reinforcement Learning Status:
+	Completed 900 out of 2000 training episodes
+	Average Rewards over all training: 165.30
+	Average Rewards for last 100 episodes: 149.76
+	Episode took 1.72 seconds
+Reinforcement Learning Status:
+	Completed 1000 out of 2000 training episodes
+	Average Rewards over all training: 167.83
+	Average Rewards for last 100 episodes: 190.63
+	Episode took 1.67 seconds
+Reinforcement Learning Status:
+	Completed 1100 out of 2000 training episodes
+	Average Rewards over all training: 166.16
+	Average Rewards for last 100 episodes: 149.46
+	Episode took 1.77 seconds
+Reinforcement Learning Status:
+	Completed 1200 out of 2000 training episodes
+	Average Rewards over all training: 162.29
+	Average Rewards for last 100 episodes: 119.74
+	Episode took 1.61 seconds
+Reinforcement Learning Status:
+	Completed 1300 out of 2000 training episodes
+	Average Rewards over all training: 159.74
+	Average Rewards for last 100 episodes: 129.05
+	Episode took 1.75 seconds
+Reinforcement Learning Status:
+	Completed 1400 out of 2000 training episodes
+	Average Rewards over all training: 163.36
+	Average Rewards for last 100 episodes: 210.49
+	Episode took 1.71 seconds
+Reinforcement Learning Status:
+	Completed 1500 out of 2000 training episodes
+	Average Rewards over all training: 159.09
+	Average Rewards for last 100 episodes: 99.22
+	Episode took 1.63 seconds
+Reinforcement Learning Status:
+	Completed 1600 out of 2000 training episodes
+	Average Rewards over all training: 160.38
+	Average Rewards for last 100 episodes: 179.86
+	Episode took 1.72 seconds
+Reinforcement Learning Status:
+	Completed 1700 out of 2000 training episodes
+	Average Rewards over all training: 157.35
+	Average Rewards for last 100 episodes: 108.78
+	Episode took 1.71 seconds
+Reinforcement Learning Status:
+	Completed 1800 out of 2000 training episodes
+	Average Rewards over all training: 158.61
+	Average Rewards for last 100 episodes: 180.07
+	Episode took 1.74 seconds
+Reinforcement Learning Status:
+	Completed 1900 out of 2000 training episodes
+	Average Rewards over all training: 157.09
+	Average Rewards for last 100 episodes: 129.70
+	Episode took 1.72 seconds
+Reinforcement Learning Status:
+	Completed 2000 out of 2000 training episodes
+	Average Rewards over all training: 158.68
+	Average Rewards for last 100 episodes: 188.96
+	Episode took 1.83 seconds
+Training Done (turning off epsilon and alpha)
+---------------------------------------------
+Output of training available in:  output_TrueOnlineSarsaAgent_smallGrid.csv
+>>>> RUN NO: 17 <<<<
+Beginning 2000 episodes of Training
+Reinforcement Learning Status:
+	Completed 100 out of 2000 training episodes
+	Average Rewards over all training: 149.68
+	Average Rewards for last 100 episodes: 149.68
+	Episode took 1.72 seconds
+Reinforcement Learning Status:
+	Completed 200 out of 2000 training episodes
+	Average Rewards over all training: 179.84
+	Average Rewards for last 100 episodes: 210.01
+	Episode took 1.81 seconds
+Reinforcement Learning Status:
+	Completed 300 out of 2000 training episodes
+	Average Rewards over all training: 159.73
+	Average Rewards for last 100 episodes: 119.50
+	Episode took 1.67 seconds
+Reinforcement Learning Status:
+	Completed 400 out of 2000 training episodes
+	Average Rewards over all training: 157.13
+	Average Rewards for last 100 episodes: 149.34
+	Episode took 1.69 seconds
+Reinforcement Learning Status:
+	Completed 500 out of 2000 training episodes
+	Average Rewards over all training: 139.57
+	Average Rewards for last 100 episodes: 69.33
+	Episode took 1.60 seconds
+Reinforcement Learning Status:
+	Completed 600 out of 2000 training episodes
+	Average Rewards over all training: 141.31
+	Average Rewards for last 100 episodes: 149.97
+	Episode took 1.68 seconds
+Reinforcement Learning Status:
+	Completed 700 out of 2000 training episodes
+	Average Rewards over all training: 139.60
+	Average Rewards for last 100 episodes: 129.37
+	Episode took 1.74 seconds
+Reinforcement Learning Status:
+	Completed 800 out of 2000 training episodes
+	Average Rewards over all training: 153.49
+	Average Rewards for last 100 episodes: 250.75
+	Episode took 1.75 seconds
+Reinforcement Learning Status:
+	Completed 900 out of 2000 training episodes
+	Average Rewards over all training: 164.22
+	Average Rewards for last 100 episodes: 250.04
+	Episode took 1.76 seconds
+Reinforcement Learning Status:
+	Completed 1000 out of 2000 training episodes
+	Average Rewards over all training: 159.74
+	Average Rewards for last 100 episodes: 119.37
+	Episode took 1.74 seconds
+Reinforcement Learning Status:
+	Completed 1100 out of 2000 training episodes
+	Average Rewards over all training: 161.55
+	Average Rewards for last 100 episodes: 179.71
+	Episode took 1.67 seconds
+Reinforcement Learning Status:
+	Completed 1200 out of 2000 training episodes
+	Average Rewards over all training: 159.70
+	Average Rewards for last 100 episodes: 139.29
+	Episode took 1.75 seconds
+Reinforcement Learning Status:
+	Completed 1300 out of 2000 training episodes
+	Average Rewards over all training: 159.74
+	Average Rewards for last 100 episodes: 160.20
+	Episode took 1.67 seconds
+Reinforcement Learning Status:
+	Completed 1400 out of 2000 training episodes
+	Average Rewards over all training: 157.59
+	Average Rewards for last 100 episodes: 129.70
+	Episode took 1.74 seconds
+Reinforcement Learning Status:
+	Completed 1500 out of 2000 training episodes
+	Average Rewards over all training: 151.67
+	Average Rewards for last 100 episodes: 68.77
+	Episode took 1.72 seconds
+Reinforcement Learning Status:
+	Completed 1600 out of 2000 training episodes
+	Average Rewards over all training: 158.50
+	Average Rewards for last 100 episodes: 260.94
+	Episode took 1.74 seconds
+Reinforcement Learning Status:
+	Completed 1700 out of 2000 training episodes
+	Average Rewards over all training: 153.81
+	Average Rewards for last 100 episodes: 78.83
+	Episode took 1.67 seconds
+Reinforcement Learning Status:
+	Completed 1800 out of 2000 training episodes
+	Average Rewards over all training: 156.36
+	Average Rewards for last 100 episodes: 199.76
+	Episode took 1.76 seconds
+Reinforcement Learning Status:
+	Completed 1900 out of 2000 training episodes
+	Average Rewards over all training: 154.40
+	Average Rewards for last 100 episodes: 119.13
+	Episode took 1.74 seconds
+Reinforcement Learning Status:
+	Completed 2000 out of 2000 training episodes
+	Average Rewards over all training: 149.62
+	Average Rewards for last 100 episodes: 58.81
+	Episode took 1.75 seconds
+Training Done (turning off epsilon and alpha)
+---------------------------------------------
+Output of training available in:  output_TrueOnlineSarsaAgent_smallGrid.csv
+>>>> RUN NO: 18 <<<<
+Beginning 2000 episodes of Training
+Reinforcement Learning Status:
+	Completed 100 out of 2000 training episodes
+	Average Rewards over all training: 108.92
+	Average Rewards for last 100 episodes: 108.92
+	Episode took 1.78 seconds
+Reinforcement Learning Status:
+	Completed 200 out of 2000 training episodes
+	Average Rewards over all training: 124.33
+	Average Rewards for last 100 episodes: 139.74
+	Episode took 1.70 seconds
+Reinforcement Learning Status:
+	Completed 300 out of 2000 training episodes
+	Average Rewards over all training: 146.20
+	Average Rewards for last 100 episodes: 189.95
+	Episode took 1.77 seconds
+Reinforcement Learning Status:
+	Completed 400 out of 2000 training episodes
+	Average Rewards over all training: 129.50
+	Average Rewards for last 100 episodes: 79.39
+	Episode took 1.69 seconds
+Reinforcement Learning Status:
+	Completed 500 out of 2000 training episodes
+	Average Rewards over all training: 121.49
+	Average Rewards for last 100 episodes: 89.47
+	Episode took 1.69 seconds
+Reinforcement Learning Status:
+	Completed 600 out of 2000 training episodes
+	Average Rewards over all training: 121.14
+	Average Rewards for last 100 episodes: 119.38
+	Episode took 1.70 seconds
+Reinforcement Learning Status:
+	Completed 700 out of 2000 training episodes
+	Average Rewards over all training: 135.36
+	Average Rewards for last 100 episodes: 220.66
+	Episode took 1.74 seconds
+Reinforcement Learning Status:
+	Completed 800 out of 2000 training episodes
+	Average Rewards over all training: 139.70
+	Average Rewards for last 100 episodes: 170.07
+	Episode took 1.73 seconds
+Reinforcement Learning Status:
+	Completed 900 out of 2000 training episodes
+	Average Rewards over all training: 132.97
+	Average Rewards for last 100 episodes: 79.11
+	Episode took 1.61 seconds
+Reinforcement Learning Status:
+	Completed 1000 out of 2000 training episodes
+	Average Rewards over all training: 137.72
+	Average Rewards for last 100 episodes: 180.50
+	Episode took 1.69 seconds
+Reinforcement Learning Status:
+	Completed 1100 out of 2000 training episodes
+	Average Rewards over all training: 135.09
+	Average Rewards for last 100 episodes: 108.85
+	Episode took 1.76 seconds
+Reinforcement Learning Status:
+	Completed 1200 out of 2000 training episodes
+	Average Rewards over all training: 133.83
+	Average Rewards for last 100 episodes: 119.90
+	Episode took 1.61 seconds
+Reinforcement Learning Status:
+	Completed 1300 out of 2000 training episodes
+	Average Rewards over all training: 135.07
+	Average Rewards for last 100 episodes: 150.01
+	Episode took 1.61 seconds
+Reinforcement Learning Status:
+	Completed 1400 out of 2000 training episodes
+	Average Rewards over all training: 135.41
+	Average Rewards for last 100 episodes: 139.74
+	Episode took 1.66 seconds
+Reinforcement Learning Status:
+	Completed 1500 out of 2000 training episodes
+	Average Rewards over all training: 130.97
+	Average Rewards for last 100 episodes: 68.86
+	Episode took 1.68 seconds
+Reinforcement Learning Status:
+	Completed 1600 out of 2000 training episodes
+	Average Rewards over all training: 127.09
+	Average Rewards for last 100 episodes: 68.88
+	Episode took 1.66 seconds
+Reinforcement Learning Status:
+	Completed 1700 out of 2000 training episodes
+	Average Rewards over all training: 126.60
+	Average Rewards for last 100 episodes: 118.73
+	Episode took 1.77 seconds
+Reinforcement Learning Status:
+	Completed 1800 out of 2000 training episodes
+	Average Rewards over all training: 122.28
+	Average Rewards for last 100 episodes: 48.80
+	Episode took 1.71 seconds
+Reinforcement Learning Status:
+	Completed 1900 out of 2000 training episodes
+	Average Rewards over all training: 120.55
+	Average Rewards for last 100 episodes: 89.43
+	Episode took 1.57 seconds
+Reinforcement Learning Status:
+	Completed 2000 out of 2000 training episodes
+	Average Rewards over all training: 121.49
+	Average Rewards for last 100 episodes: 139.40
+	Episode took 1.69 seconds
+Training Done (turning off epsilon and alpha)
+---------------------------------------------
+Output of training available in:  output_TrueOnlineSarsaAgent_smallGrid.csv
+>>>> RUN NO: 19 <<<<
+Beginning 2000 episodes of Training
+Reinforcement Learning Status:
+	Completed 100 out of 2000 training episodes
+	Average Rewards over all training: 129.01
+	Average Rewards for last 100 episodes: 129.01
+	Episode took 1.75 seconds
+Reinforcement Learning Status:
+	Completed 200 out of 2000 training episodes
+	Average Rewards over all training: 128.93
+	Average Rewards for last 100 episodes: 128.84
+	Episode took 1.78 seconds
+Reinforcement Learning Status:
+	Completed 300 out of 2000 training episodes
+	Average Rewards over all training: 149.24
+	Average Rewards for last 100 episodes: 189.88
+	Episode took 1.77 seconds
+Reinforcement Learning Status:
+	Completed 400 out of 2000 training episodes
+	Average Rewards over all training: 156.77
+	Average Rewards for last 100 episodes: 179.34
+	Episode took 1.83 seconds
+Reinforcement Learning Status:
+	Completed 500 out of 2000 training episodes
+	Average Rewards over all training: 151.33
+	Average Rewards for last 100 episodes: 129.60
+	Episode took 1.72 seconds
+Reinforcement Learning Status:
+	Completed 600 out of 2000 training episodes
+	Average Rewards over all training: 146.09
+	Average Rewards for last 100 episodes: 119.86
+	Episode took 1.62 seconds
+Reinforcement Learning Status:
+	Completed 700 out of 2000 training episodes
+	Average Rewards over all training: 132.23
+	Average Rewards for last 100 episodes: 49.08
+	Episode took 1.66 seconds
+Reinforcement Learning Status:
+	Completed 800 out of 2000 training episodes
+	Average Rewards over all training: 133.21
+	Average Rewards for last 100 episodes: 140.06
+	Episode took 1.75 seconds
+Reinforcement Learning Status:
+	Completed 900 out of 2000 training episodes
+	Average Rewards over all training: 124.99
+	Average Rewards for last 100 episodes: 59.25
+	Episode took 1.71 seconds
+Reinforcement Learning Status:
+	Completed 1000 out of 2000 training episodes
+	Average Rewards over all training: 129.40
+	Average Rewards for last 100 episodes: 169.06
+	Episode took 1.89 seconds
+Reinforcement Learning Status:
+	Completed 1100 out of 2000 training episodes
+	Average Rewards over all training: 125.72
+	Average Rewards for last 100 episodes: 88.93
+	Episode took 1.72 seconds
+Reinforcement Learning Status:
+	Completed 1200 out of 2000 training episodes
+	Average Rewards over all training: 116.83
+	Average Rewards for last 100 episodes: 19.01
+	Episode took 1.63 seconds
+Reinforcement Learning Status:
+	Completed 1300 out of 2000 training episodes
+	Average Rewards over all training: 117.79
+	Average Rewards for last 100 episodes: 129.39
+	Episode took 1.74 seconds
+Reinforcement Learning Status:
+	Completed 1400 out of 2000 training episodes
+	Average Rewards over all training: 116.46
+	Average Rewards for last 100 episodes: 99.10
+	Episode took 1.70 seconds
+Reinforcement Learning Status:
+	Completed 1500 out of 2000 training episodes
+	Average Rewards over all training: 116.64
+	Average Rewards for last 100 episodes: 119.18
+	Episode took 1.74 seconds
+Reinforcement Learning Status:
+	Completed 1600 out of 2000 training episodes
+	Average Rewards over all training: 116.81
+	Average Rewards for last 100 episodes: 119.33
+	Episode took 1.74 seconds
+Reinforcement Learning Status:
+	Completed 1700 out of 2000 training episodes
+	Average Rewards over all training: 116.39
+	Average Rewards for last 100 episodes: 109.78
+	Episode took 1.68 seconds
+Reinforcement Learning Status:
+	Completed 1800 out of 2000 training episodes
+	Average Rewards over all training: 114.32
+	Average Rewards for last 100 episodes: 79.08
+	Episode took 1.68 seconds
+Reinforcement Learning Status:
+	Completed 1900 out of 2000 training episodes
+	Average Rewards over all training: 113.52
+	Average Rewards for last 100 episodes: 99.12
+	Episode took 1.75 seconds
+Reinforcement Learning Status:
+	Completed 2000 out of 2000 training episodes
+	Average Rewards over all training: 113.82
+	Average Rewards for last 100 episodes: 119.58
+	Episode took 1.66 seconds
+Training Done (turning off epsilon and alpha)
+---------------------------------------------
+Output of training available in:  output_TrueOnlineSarsaAgent_smallGrid.csv
+>>>> RUN NO: 20 <<<<
+Beginning 2000 episodes of Training
+Reinforcement Learning Status:
+	Completed 100 out of 2000 training episodes
+	Average Rewards over all training: 68.46
+	Average Rewards for last 100 episodes: 68.46
+	Episode took 1.79 seconds
+Reinforcement Learning Status:
+	Completed 200 out of 2000 training episodes
+	Average Rewards over all training: 83.63
+	Average Rewards for last 100 episodes: 98.80
+	Episode took 1.76 seconds
+Reinforcement Learning Status:
+	Completed 300 out of 2000 training episodes
+	Average Rewards over all training: 85.63
+	Average Rewards for last 100 episodes: 89.63
+	Episode took 1.61 seconds
+Reinforcement Learning Status:
+	Completed 400 out of 2000 training episodes
+	Average Rewards over all training: 104.19
+	Average Rewards for last 100 episodes: 159.86
+	Episode took 1.67 seconds
+Reinforcement Learning Status:
+	Completed 500 out of 2000 training episodes
+	Average Rewards over all training: 101.17
+	Average Rewards for last 100 episodes: 89.08
+	Episode took 1.66 seconds
+Reinforcement Learning Status:
+	Completed 600 out of 2000 training episodes
+	Average Rewards over all training: 112.64
+	Average Rewards for last 100 episodes: 170.02
+	Episode took 1.68 seconds
+Reinforcement Learning Status:
+	Completed 700 out of 2000 training episodes
+	Average Rewards over all training: 109.38
+	Average Rewards for last 100 episodes: 89.78
+	Episode took 1.63 seconds
+Reinforcement Learning Status:
+	Completed 800 out of 2000 training episodes
+	Average Rewards over all training: 106.77
+	Average Rewards for last 100 episodes: 88.50
+	Episode took 1.73 seconds
+Reinforcement Learning Status:
+	Completed 900 out of 2000 training episodes
+	Average Rewards over all training: 111.52
+	Average Rewards for last 100 episodes: 149.52
+	Episode took 1.68 seconds
+Reinforcement Learning Status:
+	Completed 1000 out of 2000 training episodes
+	Average Rewards over all training: 106.25
+	Average Rewards for last 100 episodes: 58.81
+	Episode took 1.68 seconds
+Reinforcement Learning Status:
+	Completed 1100 out of 2000 training episodes
+	Average Rewards over all training: 112.06
+	Average Rewards for last 100 episodes: 170.25
+	Episode took 1.66 seconds
+Reinforcement Learning Status:
+	Completed 1200 out of 2000 training episodes
+	Average Rewards over all training: 109.29
+	Average Rewards for last 100 episodes: 78.79
+	Episode took 1.68 seconds
+Reinforcement Learning Status:
+	Completed 1300 out of 2000 training episodes
+	Average Rewards over all training: 112.38
+	Average Rewards for last 100 episodes: 149.38
+	Episode took 1.72 seconds
+Reinforcement Learning Status:
+	Completed 1400 out of 2000 training episodes
+	Average Rewards over all training: 120.07
+	Average Rewards for last 100 episodes: 220.09
+	Episode took 1.77 seconds
+Reinforcement Learning Status:
+	Completed 1500 out of 2000 training episodes
+	Average Rewards over all training: 123.41
+	Average Rewards for last 100 episodes: 170.17
+	Episode took 1.64 seconds
+Reinforcement Learning Status:
+	Completed 1600 out of 2000 training episodes
+	Average Rewards over all training: 126.32
+	Average Rewards for last 100 episodes: 169.95
+	Episode took 1.73 seconds
+Reinforcement Learning Status:
+	Completed 1700 out of 2000 training episodes
+	Average Rewards over all training: 129.50
+	Average Rewards for last 100 episodes: 180.41
+	Episode took 1.74 seconds
+Reinforcement Learning Status:
+	Completed 1800 out of 2000 training episodes
+	Average Rewards over all training: 128.34
+	Average Rewards for last 100 episodes: 108.60
+	Episode took 1.78 seconds
+Reinforcement Learning Status:
+	Completed 1900 out of 2000 training episodes
+	Average Rewards over all training: 131.58
+	Average Rewards for last 100 episodes: 189.97
+	Episode took 1.77 seconds
+Reinforcement Learning Status:
+	Completed 2000 out of 2000 training episodes
+	Average Rewards over all training: 132.50
+	Average Rewards for last 100 episodes: 149.99
+	Episode took 1.70 seconds
+Training Done (turning off epsilon and alpha)
+---------------------------------------------
+Output of training available in:  output_TrueOnlineSarsaAgent_smallGrid.csv
+>>>> RUN NO: 21 <<<<
+Beginning 2000 episodes of Training
+Reinforcement Learning Status:
+	Completed 100 out of 2000 training episodes
+	Average Rewards over all training: 129.58
+	Average Rewards for last 100 episodes: 129.58
+	Episode took 1.72 seconds
+Reinforcement Learning Status:
+	Completed 200 out of 2000 training episodes
+	Average Rewards over all training: 164.53
+	Average Rewards for last 100 episodes: 199.47
+	Episode took 1.77 seconds
+Reinforcement Learning Status:
+	Completed 300 out of 2000 training episodes
+	Average Rewards over all training: 152.93
+	Average Rewards for last 100 episodes: 129.75
+	Episode took 1.67 seconds
+Reinforcement Learning Status:
+	Completed 400 out of 2000 training episodes
+	Average Rewards over all training: 139.59
+	Average Rewards for last 100 episodes: 99.55
+	Episode took 1.64 seconds
+Reinforcement Learning Status:
+	Completed 500 out of 2000 training episodes
+	Average Rewards over all training: 139.49
+	Average Rewards for last 100 episodes: 139.12
+	Episode took 1.81 seconds
+Reinforcement Learning Status:
+	Completed 600 out of 2000 training episodes
+	Average Rewards over all training: 154.56
+	Average Rewards for last 100 episodes: 229.87
+	Episode took 1.79 seconds
+Reinforcement Learning Status:
+	Completed 700 out of 2000 training episodes
+	Average Rewards over all training: 165.42
+	Average Rewards for last 100 episodes: 230.62
+	Episode took 1.74 seconds
+Reinforcement Learning Status:
+	Completed 800 out of 2000 training episodes
+	Average Rewards over all training: 155.89
+	Average Rewards for last 100 episodes: 89.18
+	Episode took 1.66 seconds
+Reinforcement Learning Status:
+	Completed 900 out of 2000 training episodes
+	Average Rewards over all training: 155.23
+	Average Rewards for last 100 episodes: 149.89
+	Episode took 1.69 seconds
+Reinforcement Learning Status:
+	Completed 1000 out of 2000 training episodes
+	Average Rewards over all training: 152.76
+	Average Rewards for last 100 episodes: 130.56
+	Episode took 1.56 seconds
+Reinforcement Learning Status:
+	Completed 1100 out of 2000 training episodes
+	Average Rewards over all training: 147.87
+	Average Rewards for last 100 episodes: 98.97
+	Episode took 1.71 seconds
+Reinforcement Learning Status:
+	Completed 1200 out of 2000 training episodes
+	Average Rewards over all training: 147.16
+	Average Rewards for last 100 episodes: 139.32
+	Episode took 1.73 seconds
+Reinforcement Learning Status:
+	Completed 1300 out of 2000 training episodes
+	Average Rewards over all training: 145.05
+	Average Rewards for last 100 episodes: 119.80
+	Episode took 1.66 seconds
+Reinforcement Learning Status:
+	Completed 1400 out of 2000 training episodes
+	Average Rewards over all training: 147.53
+	Average Rewards for last 100 episodes: 179.81
+	Episode took 1.80 seconds
+Reinforcement Learning Status:
+	Completed 1500 out of 2000 training episodes
+	Average Rewards over all training: 149.73
+	Average Rewards for last 100 episodes: 180.45
+	Episode took 1.70 seconds
+Reinforcement Learning Status:
+	Completed 1600 out of 2000 training episodes
+	Average Rewards over all training: 150.30
+	Average Rewards for last 100 episodes: 158.87
+	Episode took 1.88 seconds
+Reinforcement Learning Status:
+	Completed 1700 out of 2000 training episodes
+	Average Rewards over all training: 146.71
+	Average Rewards for last 100 episodes: 89.32
+	Episode took 1.68 seconds
+Reinforcement Learning Status:
+	Completed 1800 out of 2000 training episodes
+	Average Rewards over all training: 147.50
+	Average Rewards for last 100 episodes: 160.81
+	Episode took 1.65 seconds
+Reinforcement Learning Status:
+	Completed 1900 out of 2000 training episodes
+	Average Rewards over all training: 152.36
+	Average Rewards for last 100 episodes: 239.92
+	Episode took 1.89 seconds
+Reinforcement Learning Status:
+	Completed 2000 out of 2000 training episodes
+	Average Rewards over all training: 149.69
+	Average Rewards for last 100 episodes: 99.03
+	Episode took 1.72 seconds
+Training Done (turning off epsilon and alpha)
+---------------------------------------------
+Output of training available in:  output_TrueOnlineSarsaAgent_smallGrid.csv
+>>>> RUN NO: 22 <<<<
+Beginning 2000 episodes of Training
+Reinforcement Learning Status:
+	Completed 100 out of 2000 training episodes
+	Average Rewards over all training: 38.11
+	Average Rewards for last 100 episodes: 38.11
+	Episode took 1.73 seconds
+Reinforcement Learning Status:
+	Completed 200 out of 2000 training episodes
+	Average Rewards over all training: 43.57
+	Average Rewards for last 100 episodes: 49.03
+	Episode took 1.65 seconds
+Reinforcement Learning Status:
+	Completed 300 out of 2000 training episodes
+	Average Rewards over all training: 72.04
+	Average Rewards for last 100 episodes: 128.99
+	Episode took 1.81 seconds
+Reinforcement Learning Status:
+	Completed 400 out of 2000 training episodes
+	Average Rewards over all training: 88.78
+	Average Rewards for last 100 episodes: 139.01
+	Episode took 1.83 seconds
+Reinforcement Learning Status:
+	Completed 500 out of 2000 training episodes
+	Average Rewards over all training: 99.01
+	Average Rewards for last 100 episodes: 139.91
+	Episode took 1.62 seconds
+Reinforcement Learning Status:
+	Completed 600 out of 2000 training episodes
+	Average Rewards over all training: 114.20
+	Average Rewards for last 100 episodes: 190.16
+	Episode took 1.75 seconds
+Reinforcement Learning Status:
+	Completed 700 out of 2000 training episodes
+	Average Rewards over all training: 110.56
+	Average Rewards for last 100 episodes: 88.70
+	Episode took 1.78 seconds
+Reinforcement Learning Status:
+	Completed 800 out of 2000 training episodes
+	Average Rewards over all training: 115.50
+	Average Rewards for last 100 episodes: 150.06
+	Episode took 1.66 seconds
+Reinforcement Learning Status:
+	Completed 900 out of 2000 training episodes
+	Average Rewards over all training: 118.25
+	Average Rewards for last 100 episodes: 140.32
+	Episode took 1.69 seconds
+Reinforcement Learning Status:
+	Completed 1000 out of 2000 training episodes
+	Average Rewards over all training: 121.39
+	Average Rewards for last 100 episodes: 149.61
+	Episode took 1.80 seconds
+Reinforcement Learning Status:
+	Completed 1100 out of 2000 training episodes
+	Average Rewards over all training: 127.63
+	Average Rewards for last 100 episodes: 190.00
+	Episode took 1.75 seconds
+Reinforcement Learning Status:
+	Completed 1200 out of 2000 training episodes
+	Average Rewards over all training: 132.83
+	Average Rewards for last 100 episodes: 190.11
+	Episode took 1.76 seconds
+Reinforcement Learning Status:
+	Completed 1300 out of 2000 training episodes
+	Average Rewards over all training: 130.22
+	Average Rewards for last 100 episodes: 98.83
+	Episode took 1.78 seconds
+Reinforcement Learning Status:
+	Completed 1400 out of 2000 training episodes
+	Average Rewards over all training: 128.72
+	Average Rewards for last 100 episodes: 109.29
+	Episode took 1.73 seconds
+Reinforcement Learning Status:
+	Completed 1500 out of 2000 training episodes
+	Average Rewards over all training: 124.73
+	Average Rewards for last 100 episodes: 68.82
+	Episode took 1.69 seconds
+Reinforcement Learning Status:
+	Completed 1600 out of 2000 training episodes
+	Average Rewards over all training: 125.04
+	Average Rewards for last 100 episodes: 129.71
+	Episode took 1.68 seconds
+Reinforcement Learning Status:
+	Completed 1700 out of 2000 training episodes
+	Average Rewards over all training: 125.89
+	Average Rewards for last 100 episodes: 139.52
+	Episode took 1.68 seconds
+Reinforcement Learning Status:
+	Completed 1800 out of 2000 training episodes
+	Average Rewards over all training: 124.98
+	Average Rewards for last 100 episodes: 109.38
+	Episode took 1.68 seconds
+Reinforcement Learning Status:
+	Completed 1900 out of 2000 training episodes
+	Average Rewards over all training: 129.49
+	Average Rewards for last 100 episodes: 210.78
+	Episode took 1.69 seconds
+Reinforcement Learning Status:
+	Completed 2000 out of 2000 training episodes
+	Average Rewards over all training: 131.51
+	Average Rewards for last 100 episodes: 169.96
+	Episode took 1.74 seconds
+Training Done (turning off epsilon and alpha)
+---------------------------------------------
+Output of training available in:  output_TrueOnlineSarsaAgent_smallGrid.csv
+>>>> RUN NO: 23 <<<<
+Beginning 2000 episodes of Training
+Reinforcement Learning Status:
+	Completed 100 out of 2000 training episodes
+	Average Rewards over all training: 179.75
+	Average Rewards for last 100 episodes: 179.75
+	Episode took 1.78 seconds
+Reinforcement Learning Status:
+	Completed 200 out of 2000 training episodes
+	Average Rewards over all training: 159.46
+	Average Rewards for last 100 episodes: 139.16
+	Episode took 1.78 seconds
+Reinforcement Learning Status:
+	Completed 300 out of 2000 training episodes
+	Average Rewards over all training: 193.06
+	Average Rewards for last 100 episodes: 260.27
+	Episode took 1.84 seconds
+Reinforcement Learning Status:
+	Completed 400 out of 2000 training episodes
+	Average Rewards over all training: 194.77
+	Average Rewards for last 100 episodes: 199.89
+	Episode took 1.77 seconds
+Reinforcement Learning Status:
+	Completed 500 out of 2000 training episodes
+	Average Rewards over all training: 173.64
+	Average Rewards for last 100 episodes: 89.11
+	Episode took 1.75 seconds
+Reinforcement Learning Status:
+	Completed 600 out of 2000 training episodes
+	Average Rewards over all training: 178.06
+	Average Rewards for last 100 episodes: 200.19
+	Episode took 1.74 seconds
+Reinforcement Learning Status:
+	Completed 700 out of 2000 training episodes
+	Average Rewards over all training: 159.63
+	Average Rewards for last 100 episodes: 49.05
+	Episode took 1.67 seconds
+Reinforcement Learning Status:
+	Completed 800 out of 2000 training episodes
+	Average Rewards over all training: 160.83
+	Average Rewards for last 100 episodes: 169.23
+	Episode took 1.85 seconds
+Reinforcement Learning Status:
+	Completed 900 out of 2000 training episodes
+	Average Rewards over all training: 168.57
+	Average Rewards for last 100 episodes: 230.50
+	Episode took 1.73 seconds
+Reinforcement Learning Status:
+	Completed 1000 out of 2000 training episodes
+	Average Rewards over all training: 165.59
+	Average Rewards for last 100 episodes: 138.75
+	Episode took 1.80 seconds
+Reinforcement Learning Status:
+	Completed 1100 out of 2000 training episodes
+	Average Rewards over all training: 161.40
+	Average Rewards for last 100 episodes: 119.53
+	Episode took 1.71 seconds
+Reinforcement Learning Status:
+	Completed 1200 out of 2000 training episodes
+	Average Rewards over all training: 154.50
+	Average Rewards for last 100 episodes: 78.54
+	Episode took 1.70 seconds
+Reinforcement Learning Status:
+	Completed 1300 out of 2000 training episodes
+	Average Rewards over all training: 154.86
+	Average Rewards for last 100 episodes: 159.24
+	Episode took 1.75 seconds
+Reinforcement Learning Status:
+	Completed 1400 out of 2000 training episodes
+	Average Rewards over all training: 153.76
+	Average Rewards for last 100 episodes: 139.43
+	Episode took 1.80 seconds
+Reinforcement Learning Status:
+	Completed 1500 out of 2000 training episodes
+	Average Rewards over all training: 148.82
+	Average Rewards for last 100 episodes: 79.66
+	Episode took 1.61 seconds
+Reinforcement Learning Status:
+	Completed 1600 out of 2000 training episodes
+	Average Rewards over all training: 152.01
+	Average Rewards for last 100 episodes: 199.94
+	Episode took 1.74 seconds
+Reinforcement Learning Status:
+	Completed 1700 out of 2000 training episodes
+	Average Rewards over all training: 146.51
+	Average Rewards for last 100 episodes: 58.50
+	Episode took 1.75 seconds
+Reinforcement Learning Status:
+	Completed 1800 out of 2000 training episodes
+	Average Rewards over all training: 148.95
+	Average Rewards for last 100 episodes: 190.32
+	Episode took 1.77 seconds
+Reinforcement Learning Status:
+	Completed 1900 out of 2000 training episodes
+	Average Rewards over all training: 143.68
+	Average Rewards for last 100 episodes: 48.84
+	Episode took 1.63 seconds
+Reinforcement Learning Status:
+	Completed 2000 out of 2000 training episodes
+	Average Rewards over all training: 142.00
+	Average Rewards for last 100 episodes: 110.03
+	Episode took 1.67 seconds
+Training Done (turning off epsilon and alpha)
+---------------------------------------------
+Output of training available in:  output_TrueOnlineSarsaAgent_smallGrid.csv
+>>>> RUN NO: 24 <<<<
+Beginning 2000 episodes of Training
+Reinforcement Learning Status:
+	Completed 100 out of 2000 training episodes
+	Average Rewards over all training: 69.28
+	Average Rewards for last 100 episodes: 69.28
+	Episode took 1.66 seconds
+Reinforcement Learning Status:
+	Completed 200 out of 2000 training episodes
+	Average Rewards over all training: 83.78
+	Average Rewards for last 100 episodes: 98.28
+	Episode took 1.82 seconds
+Reinforcement Learning Status:
+	Completed 300 out of 2000 training episodes
+	Average Rewards over all training: 89.06
+	Average Rewards for last 100 episodes: 99.62
+	Episode took 1.63 seconds
+Reinforcement Learning Status:
+	Completed 400 out of 2000 training episodes
+	Average Rewards over all training: 96.46
+	Average Rewards for last 100 episodes: 118.67
+	Episode took 1.75 seconds
+Reinforcement Learning Status:
+	Completed 500 out of 2000 training episodes
+	Average Rewards over all training: 115.12
+	Average Rewards for last 100 episodes: 189.76
+	Episode took 1.86 seconds
+Reinforcement Learning Status:
+	Completed 600 out of 2000 training episodes
+	Average Rewards over all training: 124.22
+	Average Rewards for last 100 episodes: 169.73
+	Episode took 1.81 seconds
+Reinforcement Learning Status:
+	Completed 700 out of 2000 training episodes
+	Average Rewards over all training: 116.44
+	Average Rewards for last 100 episodes: 69.71
+	Episode took 1.58 seconds
+Reinforcement Learning Status:
+	Completed 800 out of 2000 training episodes
+	Average Rewards over all training: 123.17
+	Average Rewards for last 100 episodes: 170.29
+	Episode took 1.67 seconds
+Reinforcement Learning Status:
+	Completed 900 out of 2000 training episodes
+	Average Rewards over all training: 119.39
+	Average Rewards for last 100 episodes: 89.21
+	Episode took 1.70 seconds
+Reinforcement Learning Status:
+	Completed 1000 out of 2000 training episodes
+	Average Rewards over all training: 124.44
+	Average Rewards for last 100 episodes: 169.82
+	Episode took 1.74 seconds
+Reinforcement Learning Status:
+	Completed 1100 out of 2000 training episodes
+	Average Rewards over all training: 119.39
+	Average Rewards for last 100 episodes: 68.87
+	Episode took 1.71 seconds
+Reinforcement Learning Status:
+	Completed 1200 out of 2000 training episodes
+	Average Rewards over all training: 112.65
+	Average Rewards for last 100 episodes: 38.52
+	Episode took 1.72 seconds
+Reinforcement Learning Status:
+	Completed 1300 out of 2000 training episodes
+	Average Rewards over all training: 114.72
+	Average Rewards for last 100 episodes: 139.65
+	Episode took 1.74 seconds
+Reinforcement Learning Status:
+	Completed 1400 out of 2000 training episodes
+	Average Rewards over all training: 117.18
+	Average Rewards for last 100 episodes: 149.17
+	Episode took 1.77 seconds
+Reinforcement Learning Status:
+	Completed 1500 out of 2000 training episodes
+	Average Rewards over all training: 115.35
+	Average Rewards for last 100 episodes: 89.60
+	Episode took 1.64 seconds
+Reinforcement Learning Status:
+	Completed 1600 out of 2000 training episodes
+	Average Rewards over all training: 115.60
+	Average Rewards for last 100 episodes: 119.44
+	Episode took 1.78 seconds
+Reinforcement Learning Status:
+	Completed 1700 out of 2000 training episodes
+	Average Rewards over all training: 112.84
+	Average Rewards for last 100 episodes: 68.71
+	Episode took 1.72 seconds
+Reinforcement Learning Status:
+	Completed 1800 out of 2000 training episodes
+	Average Rewards over all training: 114.31
+	Average Rewards for last 100 episodes: 139.31
+	Episode took 1.76 seconds
+Reinforcement Learning Status:
+	Completed 1900 out of 2000 training episodes
+	Average Rewards over all training: 120.42
+	Average Rewards for last 100 episodes: 230.35
+	Episode took 1.81 seconds
+Reinforcement Learning Status:
+	Completed 2000 out of 2000 training episodes
+	Average Rewards over all training: 124.37
+	Average Rewards for last 100 episodes: 199.36
+	Episode took 1.87 seconds
+Training Done (turning off epsilon and alpha)
+---------------------------------------------
+Output of training available in:  output_TrueOnlineSarsaAgent_smallGrid.csv
+>>>> RUN NO: 25 <<<<
+Beginning 2000 episodes of Training
+Reinforcement Learning Status:
+	Completed 100 out of 2000 training episodes
+	Average Rewards over all training: 98.35
+	Average Rewards for last 100 episodes: 98.35
+	Episode took 1.79 seconds
+Reinforcement Learning Status:
+	Completed 200 out of 2000 training episodes
+	Average Rewards over all training: 149.11
+	Average Rewards for last 100 episodes: 199.87
+	Episode took 1.83 seconds
+Reinforcement Learning Status:
+	Completed 300 out of 2000 training episodes
+	Average Rewards over all training: 132.34
+	Average Rewards for last 100 episodes: 98.80
+	Episode took 1.72 seconds
+Reinforcement Learning Status:
+	Completed 400 out of 2000 training episodes
+	Average Rewards over all training: 126.48
+	Average Rewards for last 100 episodes: 108.91
+	Episode took 1.65 seconds
+Reinforcement Learning Status:
+	Completed 500 out of 2000 training episodes
+	Average Rewards over all training: 125.01
+	Average Rewards for last 100 episodes: 119.14
+	Episode took 1.56 seconds
+Reinforcement Learning Status:
+	Completed 600 out of 2000 training episodes
+	Average Rewards over all training: 144.26
+	Average Rewards for last 100 episodes: 240.49
+	Episode took 1.62 seconds
+Reinforcement Learning Status:
+	Completed 700 out of 2000 training episodes
+	Average Rewards over all training: 143.63
+	Average Rewards for last 100 episodes: 139.88
+	Episode took 1.60 seconds
+Reinforcement Learning Status:
+	Completed 800 out of 2000 training episodes
+	Average Rewards over all training: 145.77
+	Average Rewards for last 100 episodes: 160.73
+	Episode took 1.52 seconds
+Reinforcement Learning Status:
+	Completed 900 out of 2000 training episodes
+	Average Rewards over all training: 141.70
+	Average Rewards for last 100 episodes: 109.16
+	Episode took 1.65 seconds
+Reinforcement Learning Status:
+	Completed 1000 out of 2000 training episodes
+	Average Rewards over all training: 143.50
+	Average Rewards for last 100 episodes: 159.71
+	Episode took 1.62 seconds
+Reinforcement Learning Status:
+	Completed 1100 out of 2000 training episodes
+	Average Rewards over all training: 143.16
+	Average Rewards for last 100 episodes: 139.71
+	Episode took 1.54 seconds
+Reinforcement Learning Status:
+	Completed 1200 out of 2000 training episodes
+	Average Rewards over all training: 147.88
+	Average Rewards for last 100 episodes: 199.79
+	Episode took 1.58 seconds
+Reinforcement Learning Status:
+	Completed 1300 out of 2000 training episodes
+	Average Rewards over all training: 144.18
+	Average Rewards for last 100 episodes: 99.75
+	Episode took 1.52 seconds
+Reinforcement Learning Status:
+	Completed 1400 out of 2000 training episodes
+	Average Rewards over all training: 142.42
+	Average Rewards for last 100 episodes: 119.60
+	Episode took 1.36 seconds
+Reinforcement Learning Status:
+	Completed 1500 out of 2000 training episodes
+	Average Rewards over all training: 139.54
+	Average Rewards for last 100 episodes: 99.14
+	Episode took 1.34 seconds
+Reinforcement Learning Status:
+	Completed 1600 out of 2000 training episodes
+	Average Rewards over all training: 137.66
+	Average Rewards for last 100 episodes: 109.59
+	Episode took 1.26 seconds
+Reinforcement Learning Status:
+	Completed 1700 out of 2000 training episodes
+	Average Rewards over all training: 138.40
+	Average Rewards for last 100 episodes: 150.11
+	Episode took 1.18 seconds
+Reinforcement Learning Status:
+	Completed 1800 out of 2000 training episodes
+	Average Rewards over all training: 138.47
+	Average Rewards for last 100 episodes: 139.66
+	Episode took 1.21 seconds
+Reinforcement Learning Status:
+	Completed 1900 out of 2000 training episodes
+	Average Rewards over all training: 139.62
+	Average Rewards for last 100 episodes: 160.44
+	Episode took 1.13 seconds
+Reinforcement Learning Status:
+	Completed 2000 out of 2000 training episodes
+	Average Rewards over all training: 138.11
+	Average Rewards for last 100 episodes: 109.36
+	Episode took 1.14 seconds
+Training Done (turning off epsilon and alpha)
+---------------------------------------------
+Output of training available in:  output_TrueOnlineSarsaAgent_smallGrid.csv
