@@ -1,0 +1,104 @@
+Beginning 2000 episodes of Training
+Reinforcement Learning Status:
+	Completed 100 out of 2000 training episodes
+	Average Rewards over all training: 30.70
+	Average Rewards for last 100 episodes: 30.70
+	Episode took 8.61 seconds
+Reinforcement Learning Status:
+	Completed 200 out of 2000 training episodes
+	Average Rewards over all training: 24.64
+	Average Rewards for last 100 episodes: 18.59
+	Episode took 8.17 seconds
+Reinforcement Learning Status:
+	Completed 300 out of 2000 training episodes
+	Average Rewards over all training: 43.32
+	Average Rewards for last 100 episodes: 80.66
+	Episode took 7.98 seconds
+Reinforcement Learning Status:
+	Completed 400 out of 2000 training episodes
+	Average Rewards over all training: 27.70
+	Average Rewards for last 100 episodes: -19.17
+	Episode took 7.59 seconds
+Reinforcement Learning Status:
+	Completed 500 out of 2000 training episodes
+	Average Rewards over all training: 21.99
+	Average Rewards for last 100 episodes: -0.84
+	Episode took 7.44 seconds
+Reinforcement Learning Status:
+	Completed 600 out of 2000 training episodes
+	Average Rewards over all training: 19.85
+	Average Rewards for last 100 episodes: 9.16
+	Episode took 7.62 seconds
+Reinforcement Learning Status:
+	Completed 700 out of 2000 training episodes
+	Average Rewards over all training: 27.44
+	Average Rewards for last 100 episodes: 72.97
+	Episode took 8.24 seconds
+Reinforcement Learning Status:
+	Completed 800 out of 2000 training episodes
+	Average Rewards over all training: 31.81
+	Average Rewards for last 100 episodes: 62.41
+	Episode took 8.04 seconds
+Reinforcement Learning Status:
+	Completed 900 out of 2000 training episodes
+	Average Rewards over all training: 30.49
+	Average Rewards for last 100 episodes: 19.94
+	Episode took 7.97 seconds
+Reinforcement Learning Status:
+	Completed 1000 out of 2000 training episodes
+	Average Rewards over all training: 20.84
+	Average Rewards for last 100 episodes: -66.00
+	Episode took 7.73 seconds
+Reinforcement Learning Status:
+	Completed 1100 out of 2000 training episodes
+	Average Rewards over all training: 17.48
+	Average Rewards for last 100 episodes: -16.13
+	Episode took 7.52 seconds
+Reinforcement Learning Status:
+	Completed 1200 out of 2000 training episodes
+	Average Rewards over all training: 13.13
+	Average Rewards for last 100 episodes: -34.70
+	Episode took 7.62 seconds
+Reinforcement Learning Status:
+	Completed 1300 out of 2000 training episodes
+	Average Rewards over all training: 10.94
+	Average Rewards for last 100 episodes: -15.42
+	Episode took 7.43 seconds
+Reinforcement Learning Status:
+	Completed 1400 out of 2000 training episodes
+	Average Rewards over all training: 8.33
+	Average Rewards for last 100 episodes: -25.49
+	Episode took 6.98 seconds
+Reinforcement Learning Status:
+	Completed 1500 out of 2000 training episodes
+	Average Rewards over all training: 17.81
+	Average Rewards for last 100 episodes: 150.49
+	Episode took 7.95 seconds
+Reinforcement Learning Status:
+	Completed 1600 out of 2000 training episodes
+	Average Rewards over all training: 15.81
+	Average Rewards for last 100 episodes: -14.16
+	Episode took 7.78 seconds
+Reinforcement Learning Status:
+	Completed 1700 out of 2000 training episodes
+	Average Rewards over all training: 16.69
+	Average Rewards for last 100 episodes: 30.79
+	Episode took 8.54 seconds
+Reinforcement Learning Status:
+	Completed 1800 out of 2000 training episodes
+	Average Rewards over all training: 13.48
+	Average Rewards for last 100 episodes: -41.20
+	Episode took 7.61 seconds
+Reinforcement Learning Status:
+	Completed 1900 out of 2000 training episodes
+	Average Rewards over all training: 12.87
+	Average Rewards for last 100 episodes: 1.88
+	Episode took 7.97 seconds
+Reinforcement Learning Status:
+	Completed 2000 out of 2000 training episodes
+	Average Rewards over all training: 19.67
+	Average Rewards for last 100 episodes: 148.97
+	Episode took 9.21 seconds
+Training Done (turning off epsilon and alpha)
+---------------------------------------------
+Output of training available in:  output_TrueOnlineSarsaAgent_smallClassic_2.csv
