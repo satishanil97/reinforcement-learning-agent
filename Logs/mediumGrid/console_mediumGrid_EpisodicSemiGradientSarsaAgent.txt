@@ -1,0 +1,104 @@
+Beginning 2000 episodes of Training
+Reinforcement Learning Status:
+	Completed 100 out of 2000 training episodes
+	Average Rewards over all training: 496.67
+	Average Rewards for last 100 episodes: 496.67
+	Episode took 1.32 seconds
+Reinforcement Learning Status:
+	Completed 200 out of 2000 training episodes
+	Average Rewards over all training: 491.46
+	Average Rewards for last 100 episodes: 486.26
+	Episode took 1.38 seconds
+Reinforcement Learning Status:
+	Completed 300 out of 2000 training episodes
+	Average Rewards over all training: 483.04
+	Average Rewards for last 100 episodes: 466.19
+	Episode took 1.30 seconds
+Reinforcement Learning Status:
+	Completed 400 out of 2000 training episodes
+	Average Rewards over all training: 471.31
+	Average Rewards for last 100 episodes: 436.11
+	Episode took 1.29 seconds
+Reinforcement Learning Status:
+	Completed 500 out of 2000 training episodes
+	Average Rewards over all training: 474.25
+	Average Rewards for last 100 episodes: 486.03
+	Episode took 1.36 seconds
+Reinforcement Learning Status:
+	Completed 600 out of 2000 training episodes
+	Average Rewards over all training: 476.29
+	Average Rewards for last 100 episodes: 486.45
+	Episode took 1.35 seconds
+Reinforcement Learning Status:
+	Completed 700 out of 2000 training episodes
+	Average Rewards over all training: 479.17
+	Average Rewards for last 100 episodes: 496.51
+	Episode took 1.43 seconds
+Reinforcement Learning Status:
+	Completed 800 out of 2000 training episodes
+	Average Rewards over all training: 478.74
+	Average Rewards for last 100 episodes: 475.70
+	Episode took 1.42 seconds
+Reinforcement Learning Status:
+	Completed 900 out of 2000 training episodes
+	Average Rewards over all training: 479.57
+	Average Rewards for last 100 episodes: 486.21
+	Episode took 1.46 seconds
+Reinforcement Learning Status:
+	Completed 1000 out of 2000 training episodes
+	Average Rewards over all training: 480.22
+	Average Rewards for last 100 episodes: 486.08
+	Episode took 1.45 seconds
+Reinforcement Learning Status:
+	Completed 1100 out of 2000 training episodes
+	Average Rewards over all training: 482.58
+	Average Rewards for last 100 episodes: 506.12
+	Episode took 1.50 seconds
+Reinforcement Learning Status:
+	Completed 1200 out of 2000 training episodes
+	Average Rewards over all training: 482.89
+	Average Rewards for last 100 episodes: 486.32
+	Episode took 1.35 seconds
+Reinforcement Learning Status:
+	Completed 1300 out of 2000 training episodes
+	Average Rewards over all training: 483.94
+	Average Rewards for last 100 episodes: 496.52
+	Episode took 1.36 seconds
+Reinforcement Learning Status:
+	Completed 1400 out of 2000 training episodes
+	Average Rewards over all training: 482.63
+	Average Rewards for last 100 episodes: 465.63
+	Episode took 1.39 seconds
+Reinforcement Learning Status:
+	Completed 1500 out of 2000 training episodes
+	Average Rewards over all training: 481.50
+	Average Rewards for last 100 episodes: 465.71
+	Episode took 1.39 seconds
+Reinforcement Learning Status:
+	Completed 1600 out of 2000 training episodes
+	Average Rewards over all training: 483.06
+	Average Rewards for last 100 episodes: 506.45
+	Episode took 1.36 seconds
+Reinforcement Learning Status:
+	Completed 1700 out of 2000 training episodes
+	Average Rewards over all training: 483.26
+	Average Rewards for last 100 episodes: 486.47
+	Episode took 1.26 seconds
+Reinforcement Learning Status:
+	Completed 1800 out of 2000 training episodes
+	Average Rewards over all training: 484.01
+	Average Rewards for last 100 episodes: 496.70
+	Episode took 1.30 seconds
+Reinforcement Learning Status:
+	Completed 1900 out of 2000 training episodes
+	Average Rewards over all training: 482.55
+	Average Rewards for last 100 episodes: 456.39
+	Episode took 1.28 seconds
+Reinforcement Learning Status:
+	Completed 2000 out of 2000 training episodes
+	Average Rewards over all training: 483.24
+	Average Rewards for last 100 episodes: 496.30
+	Episode took 1.35 seconds
+Training Done (turning off epsilon and alpha)
+---------------------------------------------
+Output of training available in:  output_EpisodicSemiGradientSarsaAgent_mediumGrid.csv
