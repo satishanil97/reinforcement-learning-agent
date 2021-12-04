@@ -1,0 +1,104 @@
+Beginning 2000 episodes of Training
+Reinforcement Learning Status:
+	Completed 100 out of 2000 training episodes
+	Average Rewards over all training: -41.76
+	Average Rewards for last 100 episodes: -41.76
+	Episode took 0.53 seconds
+Reinforcement Learning Status:
+	Completed 200 out of 2000 training episodes
+	Average Rewards over all training: -37.17
+	Average Rewards for last 100 episodes: -32.58
+	Episode took 0.61 seconds
+Reinforcement Learning Status:
+	Completed 300 out of 2000 training episodes
+	Average Rewards over all training: 10.17
+	Average Rewards for last 100 episodes: 104.84
+	Episode took 0.52 seconds
+Reinforcement Learning Status:
+	Completed 400 out of 2000 training episodes
+	Average Rewards over all training: 42.37
+	Average Rewards for last 100 episodes: 138.97
+	Episode took 0.63 seconds
+Reinforcement Learning Status:
+	Completed 500 out of 2000 training episodes
+	Average Rewards over all training: 42.72
+	Average Rewards for last 100 episodes: 44.14
+	Episode took 0.53 seconds
+Reinforcement Learning Status:
+	Completed 600 out of 2000 training episodes
+	Average Rewards over all training: 35.36
+	Average Rewards for last 100 episodes: -1.46
+	Episode took 0.54 seconds
+Reinforcement Learning Status:
+	Completed 700 out of 2000 training episodes
+	Average Rewards over all training: 28.58
+	Average Rewards for last 100 episodes: -12.08
+	Episode took 0.59 seconds
+Reinforcement Learning Status:
+	Completed 800 out of 2000 training episodes
+	Average Rewards over all training: 26.68
+	Average Rewards for last 100 episodes: 13.33
+	Episode took 0.58 seconds
+Reinforcement Learning Status:
+	Completed 900 out of 2000 training episodes
+	Average Rewards over all training: 22.33
+	Average Rewards for last 100 episodes: -12.47
+	Episode took 0.62 seconds
+Reinforcement Learning Status:
+	Completed 1000 out of 2000 training episodes
+	Average Rewards over all training: 33.04
+	Average Rewards for last 100 episodes: 129.49
+	Episode took 0.56 seconds
+Reinforcement Learning Status:
+	Completed 1100 out of 2000 training episodes
+	Average Rewards over all training: 28.03
+	Average Rewards for last 100 episodes: -22.10
+	Episode took 0.58 seconds
+Reinforcement Learning Status:
+	Completed 1200 out of 2000 training episodes
+	Average Rewards over all training: 30.61
+	Average Rewards for last 100 episodes: 59.01
+	Episode took 0.54 seconds
+Reinforcement Learning Status:
+	Completed 1300 out of 2000 training episodes
+	Average Rewards over all training: 36.25
+	Average Rewards for last 100 episodes: 103.87
+	Episode took 0.61 seconds
+Reinforcement Learning Status:
+	Completed 1400 out of 2000 training episodes
+	Average Rewards over all training: 33.54
+	Average Rewards for last 100 episodes: -1.58
+	Episode took 0.55 seconds
+Reinforcement Learning Status:
+	Completed 1500 out of 2000 training episodes
+	Average Rewards over all training: 35.91
+	Average Rewards for last 100 episodes: 69.09
+	Episode took 0.58 seconds
+Reinforcement Learning Status:
+	Completed 1600 out of 2000 training episodes
+	Average Rewards over all training: 42.07
+	Average Rewards for last 100 episodes: 134.36
+	Episode took 0.58 seconds
+Reinforcement Learning Status:
+	Completed 1700 out of 2000 training episodes
+	Average Rewards over all training: 44.55
+	Average Rewards for last 100 episodes: 84.20
+	Episode took 0.57 seconds
+Reinforcement Learning Status:
+	Completed 1800 out of 2000 training episodes
+	Average Rewards over all training: 44.77
+	Average Rewards for last 100 episodes: 48.68
+	Episode took 0.59 seconds
+Reinforcement Learning Status:
+	Completed 1900 out of 2000 training episodes
+	Average Rewards over all training: 40.20
+	Average Rewards for last 100 episodes: -42.06
+	Episode took 0.57 seconds
+Reinforcement Learning Status:
+	Completed 2000 out of 2000 training episodes
+	Average Rewards over all training: 38.11
+	Average Rewards for last 100 episodes: -1.73
+	Episode took 0.58 seconds
+Training Done (turning off epsilon and alpha)
+---------------------------------------------
+Output of training available in:  output_ApproximateQAgent_minimaxClassic.csv

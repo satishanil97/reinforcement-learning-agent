@@ -1,0 +1,159 @@
+Count 25
+OutputFileName console_mediumClassic_EpisodicSemiGradientSarsaAgent.txt
+
+Layout mediumClassic
+
+OutputFileName console_mediumClassic_ApproximateQAgent.txt
+
+OutputFileName console_mediumClassic_TrueOnlineSarsaAgent.txt
+
+COMPLETED 1 RUNS of EpisodicSemiGradientSarsaAgent
+
+COMPLETED 1 RUNS of TrueOnlineSarsaAgent
+
+COMPLETED 1 RUNS of ApproximateQAgent
+
+COMPLETED 2 RUNS of EpisodicSemiGradientSarsaAgent
+
+COMPLETED 2 RUNS of TrueOnlineSarsaAgent
+
+COMPLETED 2 RUNS of ApproximateQAgent
+
+COMPLETED 3 RUNS of EpisodicSemiGradientSarsaAgent
+
+COMPLETED 3 RUNS of TrueOnlineSarsaAgent
+
+COMPLETED 3 RUNS of ApproximateQAgent
+
+COMPLETED 4 RUNS of EpisodicSemiGradientSarsaAgent
+
+COMPLETED 4 RUNS of TrueOnlineSarsaAgent
+
+COMPLETED 4 RUNS of ApproximateQAgent
+
+COMPLETED 5 RUNS of EpisodicSemiGradientSarsaAgent
+
+COMPLETED 5 RUNS of TrueOnlineSarsaAgent
+
+COMPLETED 5 RUNS of ApproximateQAgent
+
+COMPLETED 6 RUNS of EpisodicSemiGradientSarsaAgent
+
+COMPLETED 6 RUNS of TrueOnlineSarsaAgent
+
+COMPLETED 6 RUNS of ApproximateQAgent
+
+COMPLETED 7 RUNS of EpisodicSemiGradientSarsaAgent
+
+COMPLETED 7 RUNS of TrueOnlineSarsaAgent
+
+COMPLETED 7 RUNS of ApproximateQAgent
+
+COMPLETED 8 RUNS of EpisodicSemiGradientSarsaAgent
+
+COMPLETED 8 RUNS of TrueOnlineSarsaAgent
+
+COMPLETED 8 RUNS of ApproximateQAgent
+
+COMPLETED 9 RUNS of EpisodicSemiGradientSarsaAgent
+
+COMPLETED 9 RUNS of TrueOnlineSarsaAgent
+
+COMPLETED 9 RUNS of ApproximateQAgent
+
+COMPLETED 10 RUNS of EpisodicSemiGradientSarsaAgent
+
+COMPLETED 10 RUNS of TrueOnlineSarsaAgent
+
+COMPLETED 10 RUNS of ApproximateQAgent
+
+COMPLETED 11 RUNS of EpisodicSemiGradientSarsaAgent
+
+COMPLETED 11 RUNS of TrueOnlineSarsaAgent
+
+COMPLETED 12 RUNS of EpisodicSemiGradientSarsaAgent
+
+COMPLETED 11 RUNS of ApproximateQAgent
+
+COMPLETED 12 RUNS of TrueOnlineSarsaAgent
+
+COMPLETED 13 RUNS of EpisodicSemiGradientSarsaAgent
+
+COMPLETED 12 RUNS of ApproximateQAgent
+
+COMPLETED 13 RUNS of TrueOnlineSarsaAgent
+
+COMPLETED 14 RUNS of EpisodicSemiGradientSarsaAgent
+
+COMPLETED 13 RUNS of ApproximateQAgent
+
+COMPLETED 14 RUNS of TrueOnlineSarsaAgent
+
+COMPLETED 15 RUNS of EpisodicSemiGradientSarsaAgent
+
+COMPLETED 14 RUNS of ApproximateQAgent
+
+COMPLETED 15 RUNS of TrueOnlineSarsaAgent
+
+COMPLETED 16 RUNS of EpisodicSemiGradientSarsaAgent
+
+COMPLETED 15 RUNS of ApproximateQAgent
+
+COMPLETED 16 RUNS of TrueOnlineSarsaAgent
+
+COMPLETED 17 RUNS of EpisodicSemiGradientSarsaAgent
+
+COMPLETED 17 RUNS of TrueOnlineSarsaAgent
+
+COMPLETED 16 RUNS of ApproximateQAgent
+
+COMPLETED 18 RUNS of EpisodicSemiGradientSarsaAgent
+
+COMPLETED 18 RUNS of TrueOnlineSarsaAgent
+
+COMPLETED 17 RUNS of ApproximateQAgent
+
+COMPLETED 19 RUNS of EpisodicSemiGradientSarsaAgent
+
+COMPLETED 19 RUNS of TrueOnlineSarsaAgent
+
+COMPLETED 18 RUNS of ApproximateQAgent
+
+COMPLETED 20 RUNS of EpisodicSemiGradientSarsaAgent
+
+COMPLETED 20 RUNS of TrueOnlineSarsaAgent
+
+COMPLETED 19 RUNS of ApproximateQAgent
+
+COMPLETED 21 RUNS of EpisodicSemiGradientSarsaAgent
+
+COMPLETED 21 RUNS of TrueOnlineSarsaAgent
+
+COMPLETED 20 RUNS of ApproximateQAgent
+
+COMPLETED 22 RUNS of EpisodicSemiGradientSarsaAgent
+
+COMPLETED 22 RUNS of TrueOnlineSarsaAgent
+
+COMPLETED 23 RUNS of EpisodicSemiGradientSarsaAgent
+
+COMPLETED 21 RUNS of ApproximateQAgent
+
+COMPLETED 23 RUNS of TrueOnlineSarsaAgent
+
+COMPLETED 24 RUNS of EpisodicSemiGradientSarsaAgent
+
+COMPLETED 22 RUNS of ApproximateQAgent
+
+COMPLETED 24 RUNS of TrueOnlineSarsaAgent
+
+COMPLETED 25 RUNS of EpisodicSemiGradientSarsaAgent
+
+COMPLETED 23 RUNS of ApproximateQAgent
+
+COMPLETED 25 RUNS of TrueOnlineSarsaAgent
+
+COMPLETED 24 RUNS of ApproximateQAgent
+
+COMPLETED 25 RUNS of ApproximateQAgent
+
