@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import numpy_indexed as npi
 
-raw_data = np.genfromtxt("output_TrueOnlineSarsaAgent_smallGrid.csv", delimiter=",", names=True)
+raw_data = np.genfromtxt("./Data/smallGrid/output_TrueOnlineSarsaAgent_smallGrid.csv", delimiter=",", names=True)
 #raw_data = np.genfromtxt("test_file.csv", delimiter=",", names=True)
 
 data = raw_data.view((float, len(raw_data.dtype.names)))

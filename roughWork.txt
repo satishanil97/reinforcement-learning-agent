@@ -1,0 +1,140 @@
+Environments Set 2: mediumGrid, testClassic, minimaxClassic, powerClassic, openClassic, trickyClassic, contestClassic, mediumClassic
+
+lamda values to test: 0.2, 0.4, 0.6, 0.8, 1
+
+lambda_map: {1:0.2, 2:0.4, 3:0.6, 4:0.8, 5:1}
+
+2 people split testing. One person takes up <Environment Set 1>, the other takes up <Environment Set 2>
+
+Each person does the following to run tests in background:
+
+activate virtual environment cse571
+
+for layout in env_set {
+
+    # output_redirect_file format for non-lamda agents: console_<layout>_<agent>.txt
+
+    python pacman.py 25 -p ApproximateQAgent -a extractor=SimpleExtractor -x 2000 -n 2000 -l layout > output_redirect_file 2>&1 &
+
+    python pacman.py 25 -p EpisodicSemiGradientSarsaAgent -a extractor=SimpleExtractor -x 2000 -n 2000 -l layout > output_redirect_file 2>&1 &
+
+    for key, lambda_value in lambda_map {
+
+        # output_redirect_file format for true online sarsa: console_<layout>_<agent>_<key>.txt
+        
+        python pacman.py 25 -p TrueOnlineSarsaAgent -a extractor=SimpleExtractor,traceDecayRate=lambda_value -x 2000 -n 2000 -l layout > output_redirect_file 2>&1 &
+
+    }
+    
+} 
+
+Leave programs running overnight
+
+grep "RUN" console_mediumGrid_*
+pkill -f 'pacman.py'
+
+------------
+
+./runPacman.sh 25 mediumGrid mediumGrid_runPacmanOutput.txt
+./runPacman.sh 25 testClassic testClassic_runPacmanOutput.txt
+./runPacman.sh 25 minimaxClassic minimaxClassic_runPacmanOutput.txt
+./runPacman.sh 25 powerClassic powerClassic_runPacmanOutput.txt
+./runPacman.sh 25 openClassic openClassic_runPacmanOutput.txt
+./runPacman.sh 25 mediumClassic mediumClassic_runPacmanOutput.txt
+./runPacman.sh 25 contestClassic contestClassic_runPacmanOutput.txt
+./runPacman.sh 25 trickyClassic trickyClassic_runPacmanOutput.txt
+
+
+
+python pacman.py 25 -p ApproximateQAgent -a extractor=SimpleExtractor -x 2000 -n 2000 -l openClassic > console_openClassic_ApproximateQAgent.txt 2>&1 &
+python pacman.py 25 -p ApproximateQAgent -a extractor=SimpleExtractor -x 2000 -n 2000 -l trickyClassic > console_trickyClassic_ApproximateQAgent.txt 2>&1 &
+python pacman.py 25 -p ApproximateQAgent -a extractor=SimpleExtractor -x 2000 -n 2000 -l contestClassic > console_contestClassic_ApproximateQAgent.txt 2>&1 &
+python pacman.py 25 -p ApproximateQAgent -a extractor=SimpleExtractor -x 2000 -n 2000 -l mediumClassic > console_mediumClassic_ApproximateQAgent.txt 2>&1 &
+
+
+
+
+
+python pacman.py 25 -p EpisodicSemiGradientSarsaAgent -a extractor=SimpleExtractor -x 2000 -n 2000 -l openClassic > console_openClassic_EpisodicSemiGradientSarsaAgent.txt 2>&1 &
+python pacman.py 25 -p EpisodicSemiGradientSarsaAgent -a extractor=SimpleExtractor -x 2000 -n 2000 -l trickyClassic > console_trickyClassic_EpisodicSemiGradientSarsaAgent.txt 2>&1 &
+python pacman.py 25 -p EpisodicSemiGradientSarsaAgent -a extractor=SimpleExtractor -x 2000 -n 2000 -l contestClassic > console_contestClassic_EpisodicSemiGradientSarsaAgent.txt 2>&1 &
+python pacman.py 25 -p EpisodicSemiGradientSarsaAgent -a extractor=SimpleExtractor -x 2000 -n 2000 -l mediumClassic > console_mediumClassic_EpisodicSemiGradientSarsaAgent.txt 2>&1 &
+
+
+
+
+
+python pacman.py 25 -p TrueOnlineSarsaAgent -a extractor=SimpleExtractor -x 2000 -n 2000 -l openClassic > console_openClassic_TrueOnlineSarsaAgent.txt 2>&1 &
+python pacman.py 25 -p TrueOnlineSarsaAgent -a extractor=SimpleExtractor -x 2000 -n 2000 -l trickyClassic > console_trickyClassic_TrueOnlineSarsaAgent.txt 2>&1 &
+python pacman.py 25 -p TrueOnlineSarsaAgent -a extractor=SimpleExtractor -x 2000 -n 2000 -l contestClassic > console_contestClassic_TrueOnlineSarsaAgent.txt 2>&1 &
+python pacman.py 25 -p TrueOnlineSarsaAgent -a extractor=SimpleExtractor -x 2000 -n 2000 -l mediumClassic > console_mediumClassic_TrueOnlineSarsaAgent.txt 2>&1 &
+
+*************************************************
+
+python pacman.py 25 -p ApproximateQAgent -a extractor=SimpleExtractor -x 2000 -n 2000 -l mediumGrid > console_mediumGrid_ApproximateQAgent.txt 2>&1 &
+python pacman.py 25 -p EpisodicSemiGradientSarsaAgent -a extractor=SimpleExtractor -x 2000 -n 2000 -l mediumGrid > console_mediumGrid_EpisodicSemiGradientSarsaAgent.txt 2>&1 &
+python pacman.py 25 -p TrueOnlineSarsaAgent -a extractor=SimpleExtractor -x 2000 -n 2000 -l mediumGrid > console_mediumGrid_TrueOnlineSarsaAgent.txt 2>&1 &
+
+python pacman.py 25 -p ApproximateQAgent -a extractor=SimpleExtractor -x 2000 -n 2000 -l testClassic > console_testClassic_ApproximateQAgent.txt 2>&1 &
+python pacman.py 25 -p EpisodicSemiGradientSarsaAgent -a extractor=SimpleExtractor -x 2000 -n 2000 -l testClassic > console_testClassic_EpisodicSemiGradientSarsaAgent.txt 2>&1 &
+python pacman.py 25 -p TrueOnlineSarsaAgent -a extractor=SimpleExtractor -x 2000 -n 2000 -l testClassic > console_testClassic_TrueOnlineSarsaAgent.txt 2>&1 &
+
+python pacman.py 25 -p ApproximateQAgent -a extractor=SimpleExtractor -x 2000 -n 2000 -l minimaxClassic > console_minimaxClassic_ApproximateQAgent.txt 2>&1 &
+python pacman.py 25 -p EpisodicSemiGradientSarsaAgent -a extractor=SimpleExtractor -x 2000 -n 2000 -l minimaxClassic > console_minimaxClassic_EpisodicSemiGradientSarsaAgent.txt 2>&1 &
+python pacman.py 25 -p TrueOnlineSarsaAgent -a extractor=SimpleExtractor -x 2000 -n 2000 -l minimaxClassic > console_minimaxClassic_TrueOnlineSarsaAgent.txt 2>&1 &
+
+python pacman.py 10 -p ApproximateQAgent -a extractor=SimpleExtractor -x 2000 -n 2000 -l powerClassic > console_powerClassic_ApproximateQAgent.txt 2>&1 &
+python pacman.py 7 -p ApproximateQAgent -a extractor=SimpleExtractor -x 2000 -n 2000 -l powerClassic > console_powerClassic_ApproximateQAgent.txt 2>&1 &
+python pacman.py 8 -p ApproximateQAgent -a extractor=SimpleExtractor -x 2000 -n 2000 -l powerClassic > console_powerClassic_ApproximateQAgent.txt 2>&1 &
+
+python pacman.py 25 -p EpisodicSemiGradientSarsaAgent -a extractor=SimpleExtractor -x 2000 -n 2000 -l powerClassic > console_powerClassic_EpisodicSemiGradientSarsaAgent.txt 2>&1 &
+python pacman.py 25 -p TrueOnlineSarsaAgent -a extractor=SimpleExtractor -x 2000 -n 2000 -l powerClassic > console_powerClassic_TrueOnlineSarsaAgent.txt 2>&1 &
+
+
+
+=================================================
+
+python pacman.py 25 -p TrueOnlineSarsaAgent -a extractor=SimpleExtractor,traceDecayRate=0.2 -x 2000 -n 2000 -l mediumGrid > console_mediumGrid_TrueOnlineSarsaAgent_1.txt 2>&1 &
+python pacman.py 25 -p TrueOnlineSarsaAgent -a extractor=SimpleExtractor,traceDecayRate=0.2 -x 2000 -n 2000 -l testClassic > console_testClassic_TrueOnlineSarsaAgent_1.txt 2>&1 &
+python pacman.py 25 -p TrueOnlineSarsaAgent -a extractor=SimpleExtractor,traceDecayRate=0.2 -x 2000 -n 2000 -l minimaxClassic > console_minimaxClassic_TrueOnlineSarsaAgent_1.txt 2>&1 &
+python pacman.py 25 -p TrueOnlineSarsaAgent -a extractor=SimpleExtractor,traceDecayRate=0.2 -x 2000 -n 2000 -l powerClassic > console_powerClassic_TrueOnlineSarsaAgent_1.txt 2>&1 &
+python pacman.py 25 -p TrueOnlineSarsaAgent -a extractor=SimpleExtractor,traceDecayRate=0.2 -x 2000 -n 2000 -l openClassic > console_openClassic_TrueOnlineSarsaAgent_1.txt 2>&1 &
+python pacman.py 25 -p TrueOnlineSarsaAgent -a extractor=SimpleExtractor,traceDecayRate=0.2 -x 2000 -n 2000 -l trickyClassic > console_trickyClassic_TrueOnlineSarsaAgent_1.txt 2>&1 &
+python pacman.py 25 -p TrueOnlineSarsaAgent -a extractor=SimpleExtractor,traceDecayRate=0.2 -x 2000 -n 2000 -l contestClassic > console_contestClassic_TrueOnlineSarsaAgent_1.txt 2>&1 &
+python pacman.py 25 -p TrueOnlineSarsaAgent -a extractor=SimpleExtractor,traceDecayRate=0.2 -x 2000 -n 2000 -l mediumClassic > console_mediumClassic_TrueOnlineSarsaAgent_1.txt 2>&1 &
+
+python pacman.py 25 -p TrueOnlineSarsaAgent -a extractor=SimpleExtractor,traceDecayRate=0.4 -x 2000 -n 2000 -l mediumGrid > console_mediumGrid_TrueOnlineSarsaAgent_2.txt 2>&1 &
+python pacman.py 25 -p TrueOnlineSarsaAgent -a extractor=SimpleExtractor,traceDecayRate=0.4 -x 2000 -n 2000 -l testClassic > console_testClassic_TrueOnlineSarsaAgent_2.txt 2>&1 &
+python pacman.py 25 -p TrueOnlineSarsaAgent -a extractor=SimpleExtractor,traceDecayRate=0.4 -x 2000 -n 2000 -l minimaxClassic > console_minimaxClassic_TrueOnlineSarsaAgent_2.txt 2>&1 &
+python pacman.py 25 -p TrueOnlineSarsaAgent -a extractor=SimpleExtractor,traceDecayRate=0.4 -x 2000 -n 2000 -l powerClassic > console_powerClassic_TrueOnlineSarsaAgent_2.txt 2>&1 &
+python pacman.py 25 -p TrueOnlineSarsaAgent -a extractor=SimpleExtractor,traceDecayRate=0.4 -x 2000 -n 2000 -l openClassic > console_openClassic_TrueOnlineSarsaAgent_2.txt 2>&1 &
+python pacman.py 25 -p TrueOnlineSarsaAgent -a extractor=SimpleExtractor,traceDecayRate=0.4 -x 2000 -n 2000 -l trickyClassic > console_trickyClassic_TrueOnlineSarsaAgent_2.txt 2>&1 &
+python pacman.py 25 -p TrueOnlineSarsaAgent -a extractor=SimpleExtractor,traceDecayRate=0.4 -x 2000 -n 2000 -l contestClassic > console_contestClassic_TrueOnlineSarsaAgent_2.txt 2>&1 &
+python pacman.py 25 -p TrueOnlineSarsaAgent -a extractor=SimpleExtractor,traceDecayRate=0.4 -x 2000 -n 2000 -l mediumClassic > console_mediumClassic_TrueOnlineSarsaAgent_2.txt 2>&1 &
+
+python pacman.py 25 -p TrueOnlineSarsaAgent -a extractor=SimpleExtractor,traceDecayRate=0.6 -x 2000 -n 2000 -l mediumGrid > console_mediumGrid_TrueOnlineSarsaAgent_3.txt 2>&1 &
+python pacman.py 25 -p TrueOnlineSarsaAgent -a extractor=SimpleExtractor,traceDecayRate=0.6 -x 2000 -n 2000 -l testClassic > console_testClassic_TrueOnlineSarsaAgent_3.txt 2>&1 &
+python pacman.py 25 -p TrueOnlineSarsaAgent -a extractor=SimpleExtractor,traceDecayRate=0.6 -x 2000 -n 2000 -l minimaxClassic > console_minimaxClassic_TrueOnlineSarsaAgent_3.txt 2>&1 &
+python pacman.py 25 -p TrueOnlineSarsaAgent -a extractor=SimpleExtractor,traceDecayRate=0.6 -x 2000 -n 2000 -l powerClassic > console_powerClassic_TrueOnlineSarsaAgent_3.txt 2>&1 &
+python pacman.py 25 -p TrueOnlineSarsaAgent -a extractor=SimpleExtractor,traceDecayRate=0.6 -x 2000 -n 2000 -l openClassic > console_openClassic_TrueOnlineSarsaAgent_3.txt 2>&1 &
+python pacman.py 25 -p TrueOnlineSarsaAgent -a extractor=SimpleExtractor,traceDecayRate=0.6 -x 2000 -n 2000 -l trickyClassic > console_trickyClassic_TrueOnlineSarsaAgent_3.txt 2>&1 &
+python pacman.py 25 -p TrueOnlineSarsaAgent -a extractor=SimpleExtractor,traceDecayRate=0.6 -x 2000 -n 2000 -l contestClassic > console_contestClassic_TrueOnlineSarsaAgent_3.txt 2>&1 &
+python pacman.py 25 -p TrueOnlineSarsaAgent -a extractor=SimpleExtractor,traceDecayRate=0.6 -x 2000 -n 2000 -l mediumClassic > console_mediumClassic_TrueOnlineSarsaAgent_3.txt 2>&1 &
+
+python pacman.py 25 -p TrueOnlineSarsaAgent -a extractor=SimpleExtractor,traceDecayRate=0.8 -x 2000 -n 2000 -l mediumGrid > console_mediumGrid_TrueOnlineSarsaAgent_4.txt 2>&1 &
+python pacman.py 25 -p TrueOnlineSarsaAgent -a extractor=SimpleExtractor,traceDecayRate=0.8 -x 2000 -n 2000 -l testClassic > console_testClassic_TrueOnlineSarsaAgent_4.txt 2>&1 &
+python pacman.py 25 -p TrueOnlineSarsaAgent -a extractor=SimpleExtractor,traceDecayRate=0.8 -x 2000 -n 2000 -l minimaxClassic > console_minimaxClassic_TrueOnlineSarsaAgent_4.txt 2>&1 &
+python pacman.py 25 -p TrueOnlineSarsaAgent -a extractor=SimpleExtractor,traceDecayRate=0.8 -x 2000 -n 2000 -l powerClassic > console_powerClassic_TrueOnlineSarsaAgent_4.txt 2>&1 &
+python pacman.py 25 -p TrueOnlineSarsaAgent -a extractor=SimpleExtractor,traceDecayRate=0.8 -x 2000 -n 2000 -l openClassic > console_openClassic_TrueOnlineSarsaAgent_4.txt 2>&1 &
+python pacman.py 25 -p TrueOnlineSarsaAgent -a extractor=SimpleExtractor,traceDecayRate=0.8 -x 2000 -n 2000 -l trickyClassic > console_trickyClassic_TrueOnlineSarsaAgent_4.txt 2>&1 &
+python pacman.py 25 -p TrueOnlineSarsaAgent -a extractor=SimpleExtractor,traceDecayRate=0.8 -x 2000 -n 2000 -l contestClassic > console_contestClassic_TrueOnlineSarsaAgent_4.txt 2>&1 &
+python pacman.py 25 -p TrueOnlineSarsaAgent -a extractor=SimpleExtractor,traceDecayRate=0.8 -x 2000 -n 2000 -l mediumClassic > console_mediumClassic_TrueOnlineSarsaAgent_4.txt 2>&1 &
+
+python pacman.py 25 -p TrueOnlineSarsaAgent -a extractor=SimpleExtractor,traceDecayRate=1.0 -x 2000 -n 2000 -l mediumGrid > console_mediumGrid_TrueOnlineSarsaAgent_5.txt 2>&1 &
+python pacman.py 25 -p TrueOnlineSarsaAgent -a extractor=SimpleExtractor,traceDecayRate=1.0 -x 2000 -n 2000 -l testClassic > console_testClassic_TrueOnlineSarsaAgent_5.txt 2>&1 &
+python pacman.py 25 -p TrueOnlineSarsaAgent -a extractor=SimpleExtractor,traceDecayRate=1.0 -x 2000 -n 2000 -l minimaxClassic > console_minimaxClassic_TrueOnlineSarsaAgent_5.txt 2>&1 &
+python pacman.py 25 -p TrueOnlineSarsaAgent -a extractor=SimpleExtractor,traceDecayRate=1.0 -x 2000 -n 2000 -l powerClassic > console_powerClassic_TrueOnlineSarsaAgent_5.txt 2>&1 &
+python pacman.py 25 -p TrueOnlineSarsaAgent -a extractor=SimpleExtractor,traceDecayRate=1.0 -x 2000 -n 2000 -l openClassic > console_openClassic_TrueOnlineSarsaAgent_5.txt 2>&1 &
+python pacman.py 25 -p TrueOnlineSarsaAgent -a extractor=SimpleExtractor,traceDecayRate=1.0 -x 2000 -n 2000 -l trickyClassic > console_trickyClassic_TrueOnlineSarsaAgent_5.txt 2>&1 &
+python pacman.py 25 -p TrueOnlineSarsaAgent -a extractor=SimpleExtractor,traceDecayRate=1.0 -x 2000 -n 2000 -l contestClassic > console_contestClassic_TrueOnlineSarsaAgent_5.txt 2>&1 &
+python pacman.py 25 -p TrueOnlineSarsaAgent -a extractor=SimpleExtractor,traceDecayRate=1.0 -x 2000 -n 2000 -l mediumClassic > console_mediumClassic_TrueOnlineSarsaAgent_5.txt 2>&1 &
