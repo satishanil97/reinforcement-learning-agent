@@ -48,4 +48,7 @@ with custom lambda
 
 python pacman.py -p TrueOnlineSarsaAgent -a extractor=SimpleExtractor,traceDecayRate=0.9 -x 2000 -n 2000 -l smallGrid
 
+#### To plot graphs #### 
+Change the path of input csv file in Cell 2 of PlotGraphs_v3.ipynb
 
+Then run all the cells
