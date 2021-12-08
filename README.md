@@ -1,6 +1,14 @@
 # reinforcement-learning-agent
 CSE 571 AI Team Project Group 1 - Topic 5: Reinforcement Learning Agent
 
+The main motivation of this project is to understand the differences in learning performance of three model-free RL algorithms with similar exploitation strategies but varying exploration strategies: 
+
+*Q-learning - an off-policy learning algorithm
+*Episodic semi-gradient SARSA - an on-policy algorithm
+*True online SARSA - an on-policy algorithm 
+
+All the experiments are executed in the ‘Pacman domain’ where the Pacman learning agent learns to navigate a maze to obtain food pellets while avoiding deadly ghosts.
+
 Relevant Parts of code:
 
 pacman.py -> runGames: runs pacman world agents for specified number of runs
