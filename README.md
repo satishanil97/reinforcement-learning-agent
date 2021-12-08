@@ -9,9 +9,6 @@ The main motivation of this project is to understand the differences in learning
 
 All the experiments are executed in the ‘Pacman domain’ where the Pacman learning agent learns to navigate a maze to obtain food pellets while avoiding deadly ghosts.
 
-#### Team Members ####
-@punarvasu510
-
 Relevant Parts of code:
 
 pacman.py -> runGames: runs pacman world agents for specified number of runs
